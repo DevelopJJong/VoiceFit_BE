@@ -33,21 +33,31 @@ app.add_middleware(
 @app.middleware("http")
 async def ensure_cors_headers(request: Request, call_next: Any):
     origin = request.headers.get("origin", "")
-    if request.method == "OPTIONS":
+
+    def attach_cors(response: JSONResponse) -> JSONResponse:
         if origin in CORS_ORIGINS:
-            response = JSONResponse(status_code=200, content={"ok": True})
             response.headers["Access-Control-Allow-Origin"] = origin
             response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
             response.headers["Access-Control-Allow-Headers"] = "*"
             response.headers["Vary"] = "Origin"
-            return response
-    response = await call_next(request)
-    if origin in CORS_ORIGINS:
-        response.headers["Access-Control-Allow-Origin"] = origin
-        response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
-        response.headers["Access-Control-Allow-Headers"] = "*"
-        response.headers["Vary"] = "Origin"
-    return response
+        return response
+
+    if request.method == "OPTIONS":
+        if origin in CORS_ORIGINS:
+            return attach_cors(JSONResponse(status_code=200, content={"ok": True}))
+    try:
+        response = await call_next(request)
+        return attach_cors(response)
+    except Exception as exc:
+        logger.exception("middleware caught unhandled error", exc_info=exc)
+        return attach_cors(
+            _error_response(
+                500,
+                "INTERNAL_ERROR",
+                "요청 처리 중 오류가 발생했습니다.",
+                "입력 파일 형식/크기를 확인하고 다시 시도하세요.",
+            )
+        )
 
 
 def _error_response(status_code: int, code: str, message: str, hint: str) -> JSONResponse:
