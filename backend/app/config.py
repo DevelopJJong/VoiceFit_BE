@@ -20,7 +20,7 @@ CLIPPING_VALUE = 0.99
 
 CORS_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    "https://voice-fit-fe.vercel.app",
 ]
 
 
