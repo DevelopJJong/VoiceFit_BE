@@ -60,7 +60,11 @@ def _trim_silence(y: np.ndarray) -> np.ndarray:
         return y
     frame_len = 2048 if y.size >= 2048 else max(256, y.size)
     hop_len = max(128, frame_len // 4)
-    rms = librosa.feature.rms(y=y, frame_length=frame_len, hop_length=hop_len)[0]
+    if y.size < frame_len:
+        rms = np.array([float(np.sqrt(np.mean(np.square(y))))], dtype=np.float32)
+    else:
+        windows = np.lib.stride_tricks.sliding_window_view(y, frame_len)[::hop_len]
+        rms = np.sqrt(np.mean(np.square(windows), axis=1)).astype(np.float32)
     active = np.where(rms > RMS_TRIM_THRESHOLD)[0]
     if active.size == 0:
         return y
@@ -256,10 +260,15 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
 
         try:
             if ext == "wav":
+                logger.info("audio decode step=wav_header_check")
                 _validate_wav_header(raw_path)
+                logger.info("audio decode step=wav_decode_start")
                 y = _load_wav_with_wave(raw_path)
+                logger.info("audio decode step=wav_decode_done samples=%d", y.shape[0])
             else:
+                logger.info("audio decode step=librosa_decode_start")
                 y = _load_with_librosa(raw_path)
+                logger.info("audio decode step=librosa_decode_done samples=%d", y.shape[0])
         except Exception as err:
             if isinstance(err, AppError):
                 raise
@@ -267,8 +276,11 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
             converted_path = _convert_with_pydub(raw_path)
             y = _load_with_librosa(converted_path)
 
+        logger.info("audio postprocess step=clamp_start")
         y = _clamp_duration(y, TARGET_SR)
+        logger.info("audio postprocess step=trim_start")
         y = _trim_silence(y)
+        logger.info("audio postprocess step=trim_done samples=%d", y.shape[0])
         if not np.all(np.isfinite(y)):
             raise AppError(
                 code="INVALID_AUDIO_SIGNAL",
