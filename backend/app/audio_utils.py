@@ -68,7 +68,8 @@ def _trim_silence(y: np.ndarray) -> np.ndarray:
 
 
 def _load_with_librosa(path: Path) -> np.ndarray:
-    y, _ = librosa.load(path.as_posix(), sr=TARGET_SR, mono=True)
+    # Decode only the first MAX_DURATION_SEC to avoid long decode time / OOM on cloud runtimes.
+    y, _ = librosa.load(path.as_posix(), sr=TARGET_SR, mono=True, duration=MAX_DURATION_SEC)
     return y.astype(np.float32)
 
 
