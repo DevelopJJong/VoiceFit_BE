@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from typing import Dict
 
-import librosa
 import numpy as np
 
 
@@ -16,18 +15,46 @@ def _normalize(value: float, min_val: float, max_val: float) -> float:
     return _clamp01((value - min_val) / (max_val - min_val))
 
 
+def _frame_signal(y: np.ndarray, frame_size: int, hop_size: int) -> np.ndarray:
+    if y.size < frame_size:
+        y = np.pad(y, (0, frame_size - y.size))
+    num_frames = 1 + (y.size - frame_size) // hop_size
+    idx = np.arange(frame_size)[None, :] + hop_size * np.arange(num_frames)[:, None]
+    return y[idx]
+
+
 def extract_features(y: np.ndarray, sr: int) -> Dict[str, float]:
-    mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
-    centroid = librosa.feature.spectral_centroid(y=y, sr=sr)[0]
-    rolloff = librosa.feature.spectral_rolloff(y=y, sr=sr)[0]
-    zcr = librosa.feature.zero_crossing_rate(y)[0]
-    rms = librosa.feature.rms(y=y)[0]
+    frame_size = 1024
+    hop_size = 256
+    frames = _frame_signal(y.astype(np.float32), frame_size, hop_size)
+    win = np.hanning(frame_size).astype(np.float32)
+    windowed = frames * win[None, :]
+
+    spectrum = np.abs(np.fft.rfft(windowed, axis=1))
+    power = np.square(spectrum) + 1e-10
+    freqs = np.fft.rfftfreq(frame_size, d=1.0 / sr).astype(np.float32)
+
+    centroid = np.sum(spectrum * freqs[None, :], axis=1) / (np.sum(spectrum, axis=1) + 1e-10)
+
+    cumsum = np.cumsum(power, axis=1)
+    cutoff = 0.85 * cumsum[:, -1][:, None]
+    rolloff_idx = np.argmax(cumsum >= cutoff, axis=1)
+    rolloff = freqs[np.clip(rolloff_idx, 0, freqs.size - 1)]
+
+    sign = np.sign(frames)
+    zc = np.mean(np.abs(np.diff(sign, axis=1)) > 0, axis=1)
+    rms = np.sqrt(np.mean(np.square(frames), axis=1))
+
+    # Lightweight cepstral proxy for MVP stability (keeps mfcc_mean field contract).
+    mean_power = np.mean(power, axis=0)
+    cepstrum = np.fft.irfft(np.log(mean_power), n=frame_size)
+    mfcc_like = cepstrum[:13]
 
     return {
-        "mfcc_mean": float(np.mean(mfcc)),
+        "mfcc_mean": float(np.mean(mfcc_like)),
         "spectral_centroid_mean": float(np.mean(centroid)),
         "spectral_rolloff_mean": float(np.mean(rolloff)),
-        "zcr_mean": float(np.mean(zcr)),
+        "zcr_mean": float(np.mean(zc)),
         "rms_mean": float(np.mean(rms)),
     }
 

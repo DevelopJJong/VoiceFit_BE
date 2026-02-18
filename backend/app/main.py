@@ -197,6 +197,7 @@ async def analyze(
         )
 
         t1 = time.perf_counter()
+        logger.info("analyze feature_start")
         features = extract_features(audio_result.waveform, audio_result.sr)
         profile = profile_from_features(features)
         summary = summarize_profile(profile)
