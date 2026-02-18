@@ -85,10 +85,20 @@ def _convert_with_pydub(src_path: Path) -> Path:
     converted_path = Path(converted.name)
     converted.close()
 
-    audio = AudioSegment.from_file(src_path.as_posix())
-    audio = audio.set_channels(1).set_frame_rate(TARGET_SR)
-    audio.export(converted_path.as_posix(), format="wav")
-    return converted_path
+    try:
+        audio = AudioSegment.from_file(src_path.as_posix())
+        audio = audio.set_channels(1).set_frame_rate(TARGET_SR)
+        audio.export(converted_path.as_posix(), format="wav")
+        return converted_path
+    except Exception as err:
+        converted_path.unlink(missing_ok=True)
+        logger.exception("pydub/ffmpeg convert failed", exc_info=err)
+        raise AppError(
+            code="AUDIO_DECODE_ERROR",
+            message="오디오 디코딩에 실패했습니다.",
+            hint="Cloud 환경에서 ffmpeg가 없을 수 있습니다. wav 파일로 업로드하거나 ffmpeg를 설치하세요.",
+            status_code=400,
+        ) from err
 
 
 def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
