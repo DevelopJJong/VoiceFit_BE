@@ -1,4802 +1,5102 @@
 [
   {
-    "title": "VoiceFit Male Track 1",
+    "title": "Dynamite",
     "artist": "BTS",
     "brightness": 0.42,
     "husky": 0.23,
-    "softness": 0.45,
+    "softness": 0.43,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-1",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 2",
-    "artist": "Paul Kim",
+    "title": "Spring Day",
+    "artist": "BTS",
     "brightness": 0.49,
     "husky": 0.28,
-    "softness": 0.48,
+    "softness": 0.46,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-2",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 3",
-    "artist": "Ed Sheeran",
+    "title": "Boy With Luv",
+    "artist": "BTS",
     "brightness": 0.56,
     "husky": 0.33,
-    "softness": 0.51,
+    "softness": 0.49,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-3",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 4",
-    "artist": "Kim Kwang Seok",
+    "title": "Butter",
+    "artist": "BTS",
     "brightness": 0.63,
     "husky": 0.38,
-    "softness": 0.54,
+    "softness": 0.52,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "ballad",
-      "warm"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-4",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 5",
-    "artist": "Coldplay",
+    "title": "Permission to Dance",
+    "artist": "BTS",
     "brightness": 0.7,
     "husky": 0.43,
-    "softness": 0.57,
+    "softness": 0.55,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-5",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 6",
-    "artist": "Oasis",
+    "title": "Love Yourself",
+    "artist": "Justin Bieber",
     "brightness": 0.77,
     "husky": 0.48,
-    "softness": 0.6,
+    "softness": 0.58,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-6",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 7",
-    "artist": "Izi",
-    "brightness": 0.39,
+    "title": "Sorry",
+    "artist": "Justin Bieber",
+    "brightness": 0.84,
+    "husky": 0.53,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Peaches",
+    "artist": "Justin Bieber",
+    "brightness": 0.41,
     "husky": 0.18,
-    "softness": 0.63,
-    "range_level": 2,
-    "difficulty": 3,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-7",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 8",
-    "artist": "Lee Juck",
-    "brightness": 0.46,
+    "title": "Ghost",
+    "artist": "Justin Bieber",
+    "brightness": 0.48,
     "husky": 0.23,
-    "softness": 0.66,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-8",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 9",
-    "artist": "Frank Sinatra",
-    "brightness": 0.53,
-    "husky": 0.28,
-    "softness": 0.69,
+    "softness": 0.67,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-9",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 10",
-    "artist": "Lim Young Woong",
-    "brightness": 0.6,
-    "husky": 0.33,
-    "softness": 0.72,
+    "title": "Stay",
+    "artist": "The Kid LAROI",
+    "brightness": 0.55,
+    "husky": 0.28,
+    "softness": 0.7,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-10",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 11",
-    "artist": "BTS",
-    "brightness": 0.67,
-    "husky": 0.38,
-    "softness": 0.75,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-11",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 12",
-    "artist": "Paul Kim",
-    "brightness": 0.74,
-    "husky": 0.43,
-    "softness": 0.78,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-12",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 13",
+    "title": "Perfect",
     "artist": "Ed Sheeran",
-    "brightness": 0.36,
-    "husky": 0.48,
-    "softness": 0.81,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-13",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 14",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.43,
-    "husky": 0.18,
-    "softness": 0.84,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-14",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 15",
-    "artist": "Coldplay",
-    "brightness": 0.5,
-    "husky": 0.23,
-    "softness": 0.87,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-15",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 16",
-    "artist": "Oasis",
-    "brightness": 0.57,
-    "husky": 0.28,
-    "softness": 0.42,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-16",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 17",
-    "artist": "Izi",
-    "brightness": 0.64,
+    "brightness": 0.62,
     "husky": 0.33,
-    "softness": 0.45,
+    "softness": 0.73,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-17",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 18",
-    "artist": "Lee Juck",
-    "brightness": 0.71,
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "brightness": 0.69,
     "husky": 0.38,
-    "softness": 0.48,
+    "softness": 0.76,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-18",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 19",
-    "artist": "Frank Sinatra",
-    "brightness": 0.78,
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "brightness": 0.76,
     "husky": 0.43,
-    "softness": 0.51,
+    "softness": 0.79,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-19",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 20",
-    "artist": "Lim Young Woong",
-    "brightness": 0.4,
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "brightness": 0.83,
     "husky": 0.48,
-    "softness": 0.54,
+    "softness": 0.82,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "ballad",
-      "warm"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-20",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 21",
-    "artist": "BTS",
+    "title": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "brightness": 0.4,
+    "husky": 0.53,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Viva La Vida",
+    "artist": "Coldplay",
     "brightness": 0.47,
     "husky": 0.18,
-    "softness": 0.57,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-21",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 22",
-    "artist": "Paul Kim",
-    "brightness": 0.54,
-    "husky": 0.23,
-    "softness": 0.6,
+    "softness": 0.43,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-22",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 23",
-    "artist": "Ed Sheeran",
-    "brightness": 0.61,
-    "husky": 0.28,
-    "softness": 0.63,
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "brightness": 0.54,
+    "husky": 0.23,
+    "softness": 0.46,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-23",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 24",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.68,
-    "husky": 0.33,
-    "softness": 0.66,
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "brightness": 0.61,
+    "husky": 0.28,
+    "softness": 0.49,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "ballad",
-      "warm"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-24",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 25",
+    "title": "The Scientist",
+    "artist": "Coldplay",
+    "brightness": 0.68,
+    "husky": 0.33,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "A Sky Full of Stars",
     "artist": "Coldplay",
     "brightness": 0.75,
     "husky": 0.38,
-    "softness": 0.69,
-    "range_level": 2,
-    "difficulty": 3,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-25",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 26",
+    "title": "Wonderwall",
     "artist": "Oasis",
-    "brightness": 0.37,
+    "brightness": 0.82,
     "husky": 0.43,
-    "softness": 0.72,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-26",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 27",
-    "artist": "Izi",
-    "brightness": 0.44,
-    "husky": 0.48,
-    "softness": 0.75,
+    "softness": 0.58,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-27",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 28",
-    "artist": "Lee Juck",
-    "brightness": 0.51,
-    "husky": 0.18,
-    "softness": 0.78,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-28",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 29",
-    "artist": "Frank Sinatra",
-    "brightness": 0.58,
-    "husky": 0.23,
-    "softness": 0.81,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-29",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 30",
-    "artist": "Lim Young Woong",
-    "brightness": 0.65,
-    "husky": 0.28,
-    "softness": 0.84,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-30",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 31",
-    "artist": "BTS",
-    "brightness": 0.72,
-    "husky": 0.33,
-    "softness": 0.87,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-31",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 32",
-    "artist": "Paul Kim",
-    "brightness": 0.79,
-    "husky": 0.38,
-    "softness": 0.42,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-32",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 33",
-    "artist": "Ed Sheeran",
-    "brightness": 0.41,
-    "husky": 0.43,
-    "softness": 0.45,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-33",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 34",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.48,
-    "husky": 0.48,
-    "softness": 0.48,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-34",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 35",
-    "artist": "Coldplay",
-    "brightness": 0.55,
-    "husky": 0.18,
-    "softness": 0.51,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-35",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 36",
+    "title": "Don't Look Back in Anger",
     "artist": "Oasis",
-    "brightness": 0.62,
-    "husky": 0.23,
-    "softness": 0.54,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-36",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 37",
-    "artist": "Izi",
-    "brightness": 0.69,
-    "husky": 0.28,
-    "softness": 0.57,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-37",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 38",
-    "artist": "Lee Juck",
-    "brightness": 0.76,
-    "husky": 0.33,
-    "softness": 0.6,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-38",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 39",
-    "artist": "Frank Sinatra",
-    "brightness": 0.38,
-    "husky": 0.38,
-    "softness": 0.63,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-39",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 40",
-    "artist": "Lim Young Woong",
-    "brightness": 0.45,
-    "husky": 0.43,
-    "softness": 0.66,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-40",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 41",
-    "artist": "BTS",
-    "brightness": 0.52,
-    "husky": 0.48,
-    "softness": 0.69,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-41",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 42",
-    "artist": "Paul Kim",
-    "brightness": 0.59,
-    "husky": 0.18,
-    "softness": 0.72,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-42",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 43",
-    "artist": "Ed Sheeran",
-    "brightness": 0.66,
-    "husky": 0.23,
-    "softness": 0.75,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-43",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 44",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.73,
-    "husky": 0.28,
-    "softness": 0.78,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-44",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 45",
-    "artist": "Coldplay",
-    "brightness": 0.35,
-    "husky": 0.33,
-    "softness": 0.81,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-45",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 46",
-    "artist": "Oasis",
-    "brightness": 0.42,
-    "husky": 0.38,
-    "softness": 0.84,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-46",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 47",
-    "artist": "Izi",
-    "brightness": 0.49,
-    "husky": 0.43,
-    "softness": 0.87,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-47",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 48",
-    "artist": "Lee Juck",
-    "brightness": 0.56,
-    "husky": 0.48,
-    "softness": 0.42,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-48",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 49",
-    "artist": "Frank Sinatra",
-    "brightness": 0.63,
-    "husky": 0.18,
-    "softness": 0.45,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-49",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 50",
-    "artist": "Lim Young Woong",
-    "brightness": 0.7,
-    "husky": 0.23,
-    "softness": 0.48,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-50",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 51",
-    "artist": "BTS",
-    "brightness": 0.77,
-    "husky": 0.28,
-    "softness": 0.51,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-51",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 52",
-    "artist": "Paul Kim",
-    "brightness": 0.39,
-    "husky": 0.33,
-    "softness": 0.54,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-52",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 53",
-    "artist": "Ed Sheeran",
-    "brightness": 0.46,
-    "husky": 0.38,
-    "softness": 0.57,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-53",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 54",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.53,
-    "husky": 0.43,
-    "softness": 0.6,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-54",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 55",
-    "artist": "Coldplay",
-    "brightness": 0.6,
-    "husky": 0.48,
-    "softness": 0.63,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-55",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 56",
-    "artist": "Oasis",
-    "brightness": 0.67,
-    "husky": 0.18,
-    "softness": 0.66,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-56",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 57",
-    "artist": "Izi",
-    "brightness": 0.74,
-    "husky": 0.23,
-    "softness": 0.69,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-57",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 58",
-    "artist": "Lee Juck",
-    "brightness": 0.36,
-    "husky": 0.28,
-    "softness": 0.72,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-58",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 59",
-    "artist": "Frank Sinatra",
-    "brightness": 0.43,
-    "husky": 0.33,
-    "softness": 0.75,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-59",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 60",
-    "artist": "Lim Young Woong",
-    "brightness": 0.5,
-    "husky": 0.38,
-    "softness": 0.78,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-60",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 61",
-    "artist": "BTS",
-    "brightness": 0.57,
-    "husky": 0.43,
-    "softness": 0.81,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-61",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 62",
-    "artist": "Paul Kim",
-    "brightness": 0.64,
-    "husky": 0.48,
-    "softness": 0.84,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-62",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 63",
-    "artist": "Ed Sheeran",
-    "brightness": 0.71,
-    "husky": 0.18,
-    "softness": 0.87,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-63",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 64",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.78,
-    "husky": 0.23,
-    "softness": 0.42,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-64",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 65",
-    "artist": "Coldplay",
-    "brightness": 0.4,
-    "husky": 0.28,
-    "softness": 0.45,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-65",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 66",
-    "artist": "Oasis",
-    "brightness": 0.47,
-    "husky": 0.33,
-    "softness": 0.48,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-66",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 67",
-    "artist": "Izi",
-    "brightness": 0.54,
-    "husky": 0.38,
-    "softness": 0.51,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-67",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 68",
-    "artist": "Lee Juck",
-    "brightness": 0.61,
-    "husky": 0.43,
-    "softness": 0.54,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-68",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 69",
-    "artist": "Frank Sinatra",
-    "brightness": 0.68,
-    "husky": 0.48,
-    "softness": 0.57,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-69",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 70",
-    "artist": "Lim Young Woong",
-    "brightness": 0.75,
-    "husky": 0.18,
-    "softness": 0.6,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-70",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 71",
-    "artist": "BTS",
-    "brightness": 0.37,
-    "husky": 0.23,
-    "softness": 0.63,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-71",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 72",
-    "artist": "Paul Kim",
-    "brightness": 0.44,
-    "husky": 0.28,
-    "softness": 0.66,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-72",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 73",
-    "artist": "Ed Sheeran",
-    "brightness": 0.51,
-    "husky": 0.33,
-    "softness": 0.69,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-73",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 74",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.58,
-    "husky": 0.38,
-    "softness": 0.72,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-74",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 75",
-    "artist": "Coldplay",
-    "brightness": 0.65,
-    "husky": 0.43,
-    "softness": 0.75,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-75",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 76",
-    "artist": "Oasis",
-    "brightness": 0.72,
-    "husky": 0.48,
-    "softness": 0.78,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-76",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 77",
-    "artist": "Izi",
-    "brightness": 0.79,
-    "husky": 0.18,
-    "softness": 0.81,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-77",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 78",
-    "artist": "Lee Juck",
-    "brightness": 0.41,
-    "husky": 0.23,
-    "softness": 0.84,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-78",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 79",
-    "artist": "Frank Sinatra",
-    "brightness": 0.48,
-    "husky": 0.28,
-    "softness": 0.87,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-79",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 80",
-    "artist": "Lim Young Woong",
-    "brightness": 0.55,
-    "husky": 0.33,
-    "softness": 0.42,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-80",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 81",
-    "artist": "BTS",
-    "brightness": 0.62,
-    "husky": 0.38,
-    "softness": 0.45,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-81",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 82",
-    "artist": "Paul Kim",
-    "brightness": 0.69,
-    "husky": 0.43,
-    "softness": 0.48,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-82",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 83",
-    "artist": "Ed Sheeran",
-    "brightness": 0.76,
-    "husky": 0.48,
-    "softness": 0.51,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-83",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 84",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.38,
-    "husky": 0.18,
-    "softness": 0.54,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-84",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 85",
-    "artist": "Coldplay",
-    "brightness": 0.45,
-    "husky": 0.23,
-    "softness": 0.57,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-85",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 86",
-    "artist": "Oasis",
-    "brightness": 0.52,
-    "husky": 0.28,
-    "softness": 0.6,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-86",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 87",
-    "artist": "Izi",
-    "brightness": 0.59,
-    "husky": 0.33,
-    "softness": 0.63,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-87",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 88",
-    "artist": "Lee Juck",
-    "brightness": 0.66,
-    "husky": 0.38,
-    "softness": 0.66,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-88",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 89",
-    "artist": "Frank Sinatra",
-    "brightness": 0.73,
-    "husky": 0.43,
-    "softness": 0.69,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-89",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 90",
-    "artist": "Lim Young Woong",
-    "brightness": 0.35,
-    "husky": 0.48,
-    "softness": 0.72,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-90",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 91",
-    "artist": "BTS",
-    "brightness": 0.42,
-    "husky": 0.18,
-    "softness": 0.75,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-91",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 92",
-    "artist": "Paul Kim",
-    "brightness": 0.49,
-    "husky": 0.23,
-    "softness": 0.78,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-92",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 93",
-    "artist": "Ed Sheeran",
-    "brightness": 0.56,
-    "husky": 0.28,
-    "softness": 0.81,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-93",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 94",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.63,
-    "husky": 0.33,
-    "softness": 0.84,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-94",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 95",
-    "artist": "Coldplay",
-    "brightness": 0.7,
-    "husky": 0.38,
-    "softness": 0.87,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-95",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 96",
-    "artist": "Oasis",
-    "brightness": 0.77,
-    "husky": 0.43,
-    "softness": 0.42,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-96",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 97",
-    "artist": "Izi",
     "brightness": 0.39,
     "husky": 0.48,
-    "softness": 0.45,
+    "softness": 0.61,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-97",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 98",
-    "artist": "Lee Juck",
+    "title": "Stand By Me",
+    "artist": "Ben E. King",
     "brightness": 0.46,
-    "husky": 0.18,
-    "softness": 0.48,
+    "husky": 0.53,
+    "softness": 0.64,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-98",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 99",
+    "title": "Fly Me to the Moon",
     "artist": "Frank Sinatra",
     "brightness": 0.53,
-    "husky": 0.23,
-    "softness": 0.51,
+    "husky": 0.18,
+    "softness": 0.67,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-99",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 100",
-    "artist": "Lim Young Woong",
+    "title": "My Way",
+    "artist": "Frank Sinatra",
     "brightness": 0.6,
-    "husky": 0.28,
-    "softness": 0.54,
+    "husky": 0.23,
+    "softness": 0.7,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "ballad",
-      "warm"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-100",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 101",
-    "artist": "BTS",
+    "title": "Someone You Loved",
+    "artist": "Lewis Capaldi",
     "brightness": 0.67,
-    "husky": 0.33,
-    "softness": 0.57,
+    "husky": 0.28,
+    "softness": 0.73,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-101",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 102",
-    "artist": "Paul Kim",
+    "title": "Before You Go",
+    "artist": "Lewis Capaldi",
     "brightness": 0.74,
-    "husky": 0.38,
-    "softness": 0.6,
+    "husky": 0.33,
+    "softness": 0.76,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-102",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 103",
+    "title": "Take Me to Church",
+    "artist": "Hozier",
+    "brightness": 0.81,
+    "husky": 0.38,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "brightness": 0.38,
+    "husky": 0.43,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Sign of the Times",
+    "artist": "Harry Styles",
+    "brightness": 0.45,
+    "husky": 0.48,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "brightness": 0.52,
+    "husky": 0.53,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "brightness": 0.59,
+    "husky": 0.18,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Die For You",
+    "artist": "The Weeknd",
+    "brightness": 0.66,
+    "husky": 0.23,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Can’t Feel My Face",
+    "artist": "The Weeknd",
+    "brightness": 0.73,
+    "husky": 0.28,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Starboy",
+    "artist": "The Weeknd",
+    "brightness": 0.8,
+    "husky": 0.33,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson",
+    "brightness": 0.37,
+    "husky": 0.38,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "24K Magic",
+    "artist": "Bruno Mars",
+    "brightness": 0.44,
+    "husky": 0.43,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Just the Way You Are",
+    "artist": "Bruno Mars",
+    "brightness": 0.51,
+    "husky": 0.48,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "brightness": 0.58,
+    "husky": 0.53,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Grenade",
+    "artist": "Bruno Mars",
+    "brightness": 0.65,
+    "husky": 0.18,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Shivers",
+    "artist": "Ed Sheeran",
+    "brightness": 0.72,
+    "husky": 0.23,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Castle on the Hill",
+    "artist": "Ed Sheeran",
+    "brightness": 0.79,
+    "husky": 0.28,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Galway Girl",
     "artist": "Ed Sheeran",
     "brightness": 0.36,
-    "husky": 0.43,
-    "softness": 0.63,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-103",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 104",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.43,
-    "husky": 0.48,
-    "softness": 0.66,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-104",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 105",
-    "artist": "Coldplay",
-    "brightness": 0.5,
-    "husky": 0.18,
-    "softness": 0.69,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-105",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 106",
-    "artist": "Oasis",
-    "brightness": 0.57,
-    "husky": 0.23,
-    "softness": 0.72,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-106",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 107",
-    "artist": "Izi",
-    "brightness": 0.64,
-    "husky": 0.28,
-    "softness": 0.75,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-107",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 108",
-    "artist": "Lee Juck",
-    "brightness": 0.71,
     "husky": 0.33,
-    "softness": 0.78,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-108",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 109",
-    "artist": "Frank Sinatra",
-    "brightness": 0.78,
-    "husky": 0.38,
-    "softness": 0.81,
+    "softness": 0.79,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-109",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 110",
+    "title": "Attention",
+    "artist": "Charlie Puth",
+    "brightness": 0.43,
+    "husky": 0.38,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "We Don't Talk Anymore",
+    "artist": "Charlie Puth",
+    "brightness": 0.5,
+    "husky": 0.43,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "See You Again",
+    "artist": "Wiz Khalifa",
+    "brightness": 0.57,
+    "husky": 0.48,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Sugar",
+    "artist": "Maroon 5",
+    "brightness": 0.64,
+    "husky": 0.53,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Memories",
+    "artist": "Maroon 5",
+    "brightness": 0.71,
+    "husky": 0.18,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Girls Like You",
+    "artist": "Maroon 5",
+    "brightness": 0.78,
+    "husky": 0.23,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Payphone",
+    "artist": "Maroon 5",
+    "brightness": 0.35,
+    "husky": 0.28,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "brightness": 0.42,
+    "husky": 0.33,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "In the End",
+    "artist": "Linkin Park",
+    "brightness": 0.49,
+    "husky": 0.38,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "What I've Done",
+    "artist": "Linkin Park",
+    "brightness": 0.56,
+    "husky": 0.43,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "brightness": 0.63,
+    "husky": 0.48,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "High and Dry",
+    "artist": "Radiohead",
+    "brightness": 0.7,
+    "husky": 0.53,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "brightness": 0.77,
+    "husky": 0.18,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "brightness": 0.84,
+    "husky": 0.23,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "brightness": 0.41,
+    "husky": 0.28,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Thunder",
+    "artist": "Imagine Dragons",
+    "brightness": 0.48,
+    "husky": 0.33,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Natural",
+    "artist": "Imagine Dragons",
+    "brightness": 0.55,
+    "husky": 0.38,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "HERO",
+    "artist": "Lim Young Woong",
+    "brightness": 0.62,
+    "husky": 0.43,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "이제 나만 믿어요",
+    "artist": "Lim Young Woong",
+    "brightness": 0.69,
+    "husky": 0.48,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "사랑은 늘 도망가",
+    "artist": "Lim Young Woong",
+    "brightness": 0.76,
+    "husky": 0.53,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "모래 알갱이",
+    "artist": "Lim Young Woong",
+    "brightness": 0.83,
+    "husky": 0.18,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "우리들의 블루스",
     "artist": "Lim Young Woong",
     "brightness": 0.4,
-    "husky": 0.43,
-    "softness": 0.84,
+    "husky": 0.23,
+    "softness": 0.55,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-110",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 111",
-    "artist": "BTS",
+    "title": "좋니",
+    "artist": "Yoon Jong Shin",
     "brightness": 0.47,
-    "husky": 0.48,
-    "softness": 0.87,
+    "husky": 0.28,
+    "softness": 0.58,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-111",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 112",
-    "artist": "Paul Kim",
+    "title": "고백",
+    "artist": "Jung Joon Il",
     "brightness": 0.54,
-    "husky": 0.18,
-    "softness": 0.42,
+    "husky": 0.33,
+    "softness": 0.61,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "ballad",
-      "warm"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-112",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 113",
-    "artist": "Ed Sheeran",
+    "title": "안아줘",
+    "artist": "Jung Joon Il",
     "brightness": 0.61,
-    "husky": 0.23,
-    "softness": 0.45,
+    "husky": 0.38,
+    "softness": 0.64,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-113",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 114",
-    "artist": "Kim Kwang Seok",
+    "title": "첫눈",
+    "artist": "Jung Joon Il",
     "brightness": 0.68,
-    "husky": 0.28,
-    "softness": 0.48,
+    "husky": 0.43,
+    "softness": 0.67,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-114",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 115",
-    "artist": "Coldplay",
+    "title": "모든 날, 모든 순간",
+    "artist": "Paul Kim",
     "brightness": 0.75,
-    "husky": 0.33,
-    "softness": 0.51,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-115",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 116",
-    "artist": "Oasis",
-    "brightness": 0.37,
-    "husky": 0.38,
-    "softness": 0.54,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-116",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 117",
-    "artist": "Izi",
-    "brightness": 0.44,
-    "husky": 0.43,
-    "softness": 0.57,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-117",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 118",
-    "artist": "Lee Juck",
-    "brightness": 0.51,
     "husky": 0.48,
-    "softness": 0.6,
+    "softness": 0.7,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-118",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 119",
-    "artist": "Frank Sinatra",
-    "brightness": 0.58,
-    "husky": 0.18,
-    "softness": 0.63,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-119",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 120",
-    "artist": "Lim Young Woong",
-    "brightness": 0.65,
-    "husky": 0.23,
-    "softness": 0.66,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-120",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 121",
-    "artist": "BTS",
-    "brightness": 0.72,
-    "husky": 0.28,
-    "softness": 0.69,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-121",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 122",
+    "title": "너를 만나",
     "artist": "Paul Kim",
-    "brightness": 0.79,
-    "husky": 0.33,
-    "softness": 0.72,
+    "brightness": 0.82,
+    "husky": 0.53,
+    "softness": 0.73,
     "range_level": 3,
     "difficulty": 1,
     "target_range": "male",
     "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-122",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 123",
-    "artist": "Ed Sheeran",
-    "brightness": 0.41,
-    "husky": 0.38,
-    "softness": 0.75,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
+      "male",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-123",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 124",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.48,
-    "husky": 0.43,
-    "softness": 0.78,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-124",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 125",
-    "artist": "Coldplay",
-    "brightness": 0.55,
-    "husky": 0.48,
-    "softness": 0.81,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-125",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 126",
-    "artist": "Oasis",
-    "brightness": 0.62,
-    "husky": 0.18,
-    "softness": 0.84,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-126",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 127",
-    "artist": "Izi",
-    "brightness": 0.69,
-    "husky": 0.23,
-    "softness": 0.87,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-127",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 128",
-    "artist": "Lee Juck",
-    "brightness": 0.76,
-    "husky": 0.28,
-    "softness": 0.42,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-128",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 129",
-    "artist": "Frank Sinatra",
-    "brightness": 0.38,
-    "husky": 0.33,
-    "softness": 0.45,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-129",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 130",
-    "artist": "Lim Young Woong",
-    "brightness": 0.45,
-    "husky": 0.38,
-    "softness": 0.48,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-130",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 131",
-    "artist": "BTS",
-    "brightness": 0.52,
-    "husky": 0.43,
-    "softness": 0.51,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-131",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 132",
-    "artist": "Paul Kim",
-    "brightness": 0.59,
-    "husky": 0.48,
-    "softness": 0.54,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-132",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 133",
-    "artist": "Ed Sheeran",
-    "brightness": 0.66,
-    "husky": 0.18,
-    "softness": 0.57,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-133",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 134",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.73,
-    "husky": 0.23,
-    "softness": 0.6,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-134",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 135",
-    "artist": "Coldplay",
-    "brightness": 0.35,
-    "husky": 0.28,
-    "softness": 0.63,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-135",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 136",
-    "artist": "Oasis",
-    "brightness": 0.42,
-    "husky": 0.33,
-    "softness": 0.66,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-136",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 137",
-    "artist": "Izi",
-    "brightness": 0.49,
-    "husky": 0.38,
-    "softness": 0.69,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-137",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 138",
-    "artist": "Lee Juck",
-    "brightness": 0.56,
-    "husky": 0.43,
-    "softness": 0.72,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-138",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 139",
-    "artist": "Frank Sinatra",
-    "brightness": 0.63,
-    "husky": 0.48,
-    "softness": 0.75,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-139",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 140",
-    "artist": "Lim Young Woong",
-    "brightness": 0.7,
-    "husky": 0.18,
-    "softness": 0.78,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "ballad",
-      "warm"
-    ],
-    "external_url": "https://example.com/male-track-140",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 141",
-    "artist": "BTS",
-    "brightness": 0.77,
-    "husky": 0.23,
-    "softness": 0.81,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-141",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 142",
+    "title": "비",
     "artist": "Paul Kim",
     "brightness": 0.39,
-    "husky": 0.28,
-    "softness": 0.84,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
-    "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-142",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 143",
-    "artist": "Ed Sheeran",
-    "brightness": 0.46,
-    "husky": 0.33,
-    "softness": 0.87,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "vocal",
-      "ballad"
-    ],
-    "external_url": "https://example.com/male-track-143",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 144",
-    "artist": "Kim Kwang Seok",
-    "brightness": 0.53,
-    "husky": 0.38,
-    "softness": 0.42,
+    "husky": 0.18,
+    "softness": 0.76,
     "range_level": 1,
     "difficulty": 2,
     "target_range": "male",
     "tags": [
-      "ballad",
-      "warm"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-144",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 145",
-    "artist": "Coldplay",
-    "brightness": 0.6,
-    "husky": 0.43,
-    "softness": 0.45,
+    "title": "한숨",
+    "artist": "Lee Hi",
+    "brightness": 0.46,
+    "husky": 0.23,
+    "softness": 0.79,
     "range_level": 2,
     "difficulty": 3,
     "target_range": "male",
     "tags": [
-      "warm",
-      "mid"
+      "male",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-145",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 146",
+    "title": "걱정말아요 그대",
+    "artist": "Lee Juck",
+    "brightness": 0.53,
+    "husky": 0.28,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "하늘을 달리다",
+    "artist": "Lee Juck",
+    "brightness": 0.6,
+    "husky": 0.33,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "응급실",
+    "artist": "Izi",
+    "brightness": 0.67,
+    "husky": 0.38,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "질풍가도",
+    "artist": "Yoo Jung Seok",
+    "brightness": 0.74,
+    "husky": 0.43,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "서른 즈음에",
+    "artist": "Kim Kwang Seok",
+    "brightness": 0.81,
+    "husky": 0.48,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "사랑했지만",
+    "artist": "Kim Kwang Seok",
+    "brightness": 0.38,
+    "husky": 0.53,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "먼지가 되어",
+    "artist": "Kim Kwang Seok",
+    "brightness": 0.45,
+    "husky": 0.18,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "비처럼 음악처럼",
+    "artist": "Kim Hyun Sik",
+    "brightness": 0.52,
+    "husky": 0.23,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "그녀를 사랑해줘요",
+    "artist": "Ha Dong Qn",
+    "brightness": 0.59,
+    "husky": 0.28,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Timeless",
+    "artist": "SG Wannabe",
+    "brightness": 0.66,
+    "husky": 0.33,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "라라라",
+    "artist": "SG Wannabe",
+    "brightness": 0.73,
+    "husky": 0.38,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "죄와 벌",
+    "artist": "SG Wannabe",
+    "brightness": 0.8,
+    "husky": 0.43,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "봄날은 간다",
+    "artist": "Kim Yoon Ah",
+    "brightness": 0.37,
+    "husky": 0.48,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "좋은 사람",
+    "artist": "Toy",
+    "brightness": 0.44,
+    "husky": 0.53,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "취중진담",
+    "artist": "Jeon In Kwon",
+    "brightness": 0.51,
+    "husky": 0.18,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "너의 의미",
+    "artist": "Kim Chang Wan",
+    "brightness": 0.58,
+    "husky": 0.23,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "너였다면",
+    "artist": "Jung Seung Hwan",
+    "brightness": 0.65,
+    "husky": 0.28,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "눈의 꽃",
+    "artist": "Park Hyo Shin",
+    "brightness": 0.72,
+    "husky": 0.33,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "야생화",
+    "artist": "Park Hyo Shin",
+    "brightness": 0.79,
+    "husky": 0.38,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "숨",
+    "artist": "Park Hyo Shin",
+    "brightness": 0.36,
+    "husky": 0.43,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Home",
+    "artist": "NCT U",
+    "brightness": 0.43,
+    "husky": 0.48,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Sticker",
+    "artist": "NCT 127",
+    "brightness": 0.5,
+    "husky": 0.53,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Kick It",
+    "artist": "NCT 127",
+    "brightness": 0.57,
+    "husky": 0.18,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Love Scenario",
+    "artist": "iKON",
+    "brightness": 0.64,
+    "husky": 0.23,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "취기를 빌려",
+    "artist": "Sandeul",
+    "brightness": 0.71,
+    "husky": 0.28,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "에잇",
+    "artist": "IU",
+    "brightness": 0.78,
+    "husky": 0.33,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "첫 만남은 계획대로 되지 않아",
+    "artist": "TWS",
+    "brightness": 0.35,
+    "husky": 0.38,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Dynamite",
+    "artist": "BTS",
+    "brightness": 0.42,
+    "husky": 0.43,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Spring Day",
+    "artist": "BTS",
+    "brightness": 0.49,
+    "husky": 0.48,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Boy With Luv",
+    "artist": "BTS",
+    "brightness": 0.56,
+    "husky": 0.53,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS",
+    "brightness": 0.63,
+    "husky": 0.18,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Permission to Dance",
+    "artist": "BTS",
+    "brightness": 0.7,
+    "husky": 0.23,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Love Yourself",
+    "artist": "Justin Bieber",
+    "brightness": 0.77,
+    "husky": 0.28,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Sorry",
+    "artist": "Justin Bieber",
+    "brightness": 0.84,
+    "husky": 0.33,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Peaches",
+    "artist": "Justin Bieber",
+    "brightness": 0.41,
+    "husky": 0.38,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Ghost",
+    "artist": "Justin Bieber",
+    "brightness": 0.48,
+    "husky": 0.43,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Stay",
+    "artist": "The Kid LAROI",
+    "brightness": 0.55,
+    "husky": 0.48,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "brightness": 0.62,
+    "husky": 0.53,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "brightness": 0.69,
+    "husky": 0.18,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "brightness": 0.76,
+    "husky": 0.23,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "brightness": 0.83,
+    "husky": 0.28,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "brightness": 0.4,
+    "husky": 0.33,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Viva La Vida",
+    "artist": "Coldplay",
+    "brightness": 0.47,
+    "husky": 0.38,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "brightness": 0.54,
+    "husky": 0.43,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "brightness": 0.61,
+    "husky": 0.48,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "The Scientist",
+    "artist": "Coldplay",
+    "brightness": 0.68,
+    "husky": 0.53,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "brightness": 0.75,
+    "husky": 0.18,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Wonderwall",
     "artist": "Oasis",
+    "brightness": 0.82,
+    "husky": 0.23,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Don't Look Back in Anger",
+    "artist": "Oasis",
+    "brightness": 0.39,
+    "husky": 0.28,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Stand By Me",
+    "artist": "Ben E. King",
+    "brightness": 0.46,
+    "husky": 0.33,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "brightness": 0.53,
+    "husky": 0.38,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "My Way",
+    "artist": "Frank Sinatra",
+    "brightness": 0.6,
+    "husky": 0.43,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Someone You Loved",
+    "artist": "Lewis Capaldi",
     "brightness": 0.67,
     "husky": 0.48,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Before You Go",
+    "artist": "Lewis Capaldi",
+    "brightness": 0.74,
+    "husky": 0.53,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Take Me to Church",
+    "artist": "Hozier",
+    "brightness": 0.81,
+    "husky": 0.18,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "brightness": 0.38,
+    "husky": 0.23,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Sign of the Times",
+    "artist": "Harry Styles",
+    "brightness": 0.45,
+    "husky": 0.28,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "brightness": 0.52,
+    "husky": 0.33,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "brightness": 0.59,
+    "husky": 0.38,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Die For You",
+    "artist": "The Weeknd",
+    "brightness": 0.66,
+    "husky": 0.43,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Can’t Feel My Face",
+    "artist": "The Weeknd",
+    "brightness": 0.73,
+    "husky": 0.48,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Starboy",
+    "artist": "The Weeknd",
+    "brightness": 0.8,
+    "husky": 0.53,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson",
+    "brightness": 0.37,
+    "husky": 0.18,
+    "softness": 0.43,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "24K Magic",
+    "artist": "Bruno Mars",
+    "brightness": 0.44,
+    "husky": 0.23,
+    "softness": 0.46,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Just the Way You Are",
+    "artist": "Bruno Mars",
+    "brightness": 0.51,
+    "husky": 0.28,
+    "softness": 0.49,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "brightness": 0.58,
+    "husky": 0.33,
+    "softness": 0.52,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Grenade",
+    "artist": "Bruno Mars",
+    "brightness": 0.65,
+    "husky": 0.38,
+    "softness": 0.55,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Shivers",
+    "artist": "Ed Sheeran",
+    "brightness": 0.72,
+    "husky": 0.43,
+    "softness": 0.58,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Castle on the Hill",
+    "artist": "Ed Sheeran",
+    "brightness": 0.79,
+    "husky": 0.48,
+    "softness": 0.61,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Galway Girl",
+    "artist": "Ed Sheeran",
+    "brightness": 0.36,
+    "husky": 0.53,
+    "softness": 0.64,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Attention",
+    "artist": "Charlie Puth",
+    "brightness": 0.43,
+    "husky": 0.18,
+    "softness": 0.67,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "We Don't Talk Anymore",
+    "artist": "Charlie Puth",
+    "brightness": 0.5,
+    "husky": 0.23,
+    "softness": 0.7,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "See You Again",
+    "artist": "Wiz Khalifa",
+    "brightness": 0.57,
+    "husky": 0.28,
+    "softness": 0.73,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Sugar",
+    "artist": "Maroon 5",
+    "brightness": 0.64,
+    "husky": 0.33,
+    "softness": 0.76,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Memories",
+    "artist": "Maroon 5",
+    "brightness": 0.71,
+    "husky": 0.38,
+    "softness": 0.79,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Girls Like You",
+    "artist": "Maroon 5",
+    "brightness": 0.78,
+    "husky": 0.43,
+    "softness": 0.82,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Payphone",
+    "artist": "Maroon 5",
+    "brightness": 0.35,
+    "husky": 0.48,
+    "softness": 0.4,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "male",
+    "tags": [
+      "male",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "밤편지",
+    "artist": "IU",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "좋은 날",
+    "artist": "IU",
+    "brightness": 0.68,
+    "husky": 0.18,
+    "softness": 0.57,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Blueming",
+    "artist": "IU",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Celebrity",
+    "artist": "IU",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "금요일에 만나요",
+    "artist": "IU",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Love wins all",
+    "artist": "IU",
+    "brightness": 0.59,
+    "husky": 0.34,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "LILAC",
+    "artist": "IU",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Palette",
+    "artist": "IU",
+    "brightness": 0.77,
+    "husky": 0.12,
     "softness": 0.48,
     "range_level": 3,
     "difficulty": 1,
-    "target_range": "male",
+    "target_range": "female",
     "tags": [
-      "mid",
-      "vocal"
-    ],
-    "external_url": "https://example.com/male-track-146",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 147",
-    "artist": "Izi",
-    "brightness": 0.74,
-    "husky": 0.18,
-    "softness": 0.51,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
-    "tags": [
+      "female",
       "vocal",
-      "ballad"
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-147",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 148",
-    "artist": "Lee Juck",
-    "brightness": 0.36,
-    "husky": 0.23,
+    "title": "eight",
+    "artist": "IU",
+    "brightness": 0.86,
+    "husky": 0.16,
     "softness": 0.54,
-    "range_level": 2,
-    "difficulty": 3,
-    "target_range": "male",
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
     "tags": [
-      "ballad",
-      "warm"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-148",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Male Track 149",
-    "artist": "Frank Sinatra",
-    "brightness": 0.43,
-    "husky": 0.28,
-    "softness": 0.57,
-    "range_level": 3,
-    "difficulty": 1,
-    "target_range": "male",
-    "tags": [
-      "warm",
-      "mid"
-    ],
-    "external_url": "https://example.com/male-track-149",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Male Track 150",
-    "artist": "Lim Young Woong",
+    "title": "Through the Night",
+    "artist": "IU",
     "brightness": 0.5,
-    "husky": 0.33,
+    "husky": 0.2,
     "softness": 0.6,
-    "range_level": 1,
-    "difficulty": 2,
-    "target_range": "male",
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
     "tags": [
-      "mid",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/male-track-150",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 1",
+    "title": "Someone Like You",
     "artist": "Adele",
-    "brightness": 0.64,
-    "husky": 0.14,
-    "softness": 0.51,
-    "range_level": 2,
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-1",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 2",
-    "artist": "BLACKPINK",
-    "brightness": 0.73,
-    "husky": 0.18,
-    "softness": 0.57,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-2",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 3",
-    "artist": "Younha",
-    "brightness": 0.82,
-    "husky": 0.22,
-    "softness": 0.63,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-3",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 4",
-    "artist": "Taeyeon",
-    "brightness": 0.91,
-    "husky": 0.26,
-    "softness": 0.69,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-4",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 5",
-    "artist": "NewJeans",
-    "brightness": 0.6,
-    "husky": 0.3,
-    "softness": 0.75,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-5",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 6",
-    "artist": "aespa",
-    "brightness": 0.69,
-    "husky": 0.34,
-    "softness": 0.81,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-6",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 7",
-    "artist": "Brave Girls",
-    "brightness": 0.78,
-    "husky": 0.1,
-    "softness": 0.87,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-7",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 8",
-    "artist": "Whitney Houston",
-    "brightness": 0.87,
-    "husky": 0.14,
-    "softness": 0.93,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-8",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 9",
-    "artist": "Heize",
-    "brightness": 0.56,
-    "husky": 0.18,
-    "softness": 0.49,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-9",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 10",
-    "artist": "IU",
-    "brightness": 0.65,
-    "husky": 0.22,
-    "softness": 0.55,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-10",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 11",
+    "title": "Hello",
     "artist": "Adele",
-    "brightness": 0.74,
-    "husky": 0.26,
-    "softness": 0.61,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-11",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 12",
-    "artist": "BLACKPINK",
-    "brightness": 0.83,
-    "husky": 0.3,
-    "softness": 0.67,
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
     "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-12",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 13",
-    "artist": "Younha",
-    "brightness": 0.92,
-    "husky": 0.34,
-    "softness": 0.73,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-13",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 14",
-    "artist": "Taeyeon",
-    "brightness": 0.61,
-    "husky": 0.1,
-    "softness": 0.79,
-    "range_level": 3,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-14",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 15",
-    "artist": "NewJeans",
-    "brightness": 0.7,
-    "husky": 0.14,
-    "softness": 0.85,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-15",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 16",
-    "artist": "aespa",
-    "brightness": 0.79,
-    "husky": 0.18,
-    "softness": 0.91,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-16",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 17",
-    "artist": "Brave Girls",
-    "brightness": 0.88,
-    "husky": 0.22,
-    "softness": 0.47,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-17",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 18",
-    "artist": "Whitney Houston",
-    "brightness": 0.57,
-    "husky": 0.26,
-    "softness": 0.53,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-18",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 19",
-    "artist": "Heize",
-    "brightness": 0.66,
-    "husky": 0.3,
-    "softness": 0.59,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-19",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 20",
-    "artist": "IU",
-    "brightness": 0.75,
-    "husky": 0.34,
-    "softness": 0.65,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-20",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 21",
+    "title": "Rolling in the Deep",
     "artist": "Adele",
-    "brightness": 0.84,
-    "husky": 0.1,
-    "softness": 0.71,
-    "range_level": 1,
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-21",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 22",
-    "artist": "BLACKPINK",
-    "brightness": 0.93,
-    "husky": 0.14,
-    "softness": 0.77,
-    "range_level": 2,
+    "title": "Easy On Me",
+    "artist": "Adele",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-22",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 23",
-    "artist": "Younha",
-    "brightness": 0.62,
-    "husky": 0.18,
-    "softness": 0.83,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-23",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 24",
-    "artist": "Taeyeon",
-    "brightness": 0.71,
-    "husky": 0.22,
-    "softness": 0.89,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-24",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 25",
-    "artist": "NewJeans",
-    "brightness": 0.8,
-    "husky": 0.26,
+    "title": "Set Fire to the Rain",
+    "artist": "Adele",
+    "brightness": 0.5,
+    "husky": 0.1,
     "softness": 0.45,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-25",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 26",
-    "artist": "aespa",
-    "brightness": 0.89,
-    "husky": 0.3,
-    "softness": 0.51,
-    "range_level": 3,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-26",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 27",
-    "artist": "Brave Girls",
-    "brightness": 0.58,
-    "husky": 0.34,
-    "softness": 0.57,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-27",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 28",
-    "artist": "Whitney Houston",
-    "brightness": 0.67,
-    "husky": 0.1,
-    "softness": 0.63,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-28",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 29",
-    "artist": "Heize",
-    "brightness": 0.76,
-    "husky": 0.14,
-    "softness": 0.69,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-29",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 30",
-    "artist": "IU",
-    "brightness": 0.85,
-    "husky": 0.18,
-    "softness": 0.75,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-30",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 31",
-    "artist": "Adele",
-    "brightness": 0.94,
-    "husky": 0.22,
-    "softness": 0.81,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-31",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 32",
+    "title": "How You Like That",
     "artist": "BLACKPINK",
-    "brightness": 0.63,
-    "husky": 0.26,
-    "softness": 0.87,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-32",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 33",
-    "artist": "Younha",
-    "brightness": 0.72,
-    "husky": 0.3,
-    "softness": 0.93,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-33",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 34",
-    "artist": "Taeyeon",
-    "brightness": 0.81,
-    "husky": 0.34,
-    "softness": 0.49,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-34",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 35",
-    "artist": "NewJeans",
-    "brightness": 0.9,
-    "husky": 0.1,
-    "softness": 0.55,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-35",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 36",
-    "artist": "aespa",
     "brightness": 0.59,
     "husky": 0.14,
-    "softness": 0.61,
-    "range_level": 1,
+    "softness": 0.51,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-36",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 37",
-    "artist": "Brave Girls",
+    "title": "Lovesick Girls",
+    "artist": "BLACKPINK",
     "brightness": 0.68,
     "husky": 0.18,
-    "softness": 0.67,
-    "range_level": 2,
+    "softness": 0.57,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-37",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 38",
-    "artist": "Whitney Houston",
+    "title": "Stay",
+    "artist": "BLACKPINK",
     "brightness": 0.77,
     "husky": 0.22,
-    "softness": 0.73,
-    "range_level": 3,
+    "softness": 0.63,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-38",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 39",
-    "artist": "Heize",
+    "title": "Pink Venom",
+    "artist": "BLACKPINK",
     "brightness": 0.86,
     "husky": 0.26,
-    "softness": 0.79,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-39",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 40",
-    "artist": "IU",
-    "brightness": 0.55,
-    "husky": 0.3,
-    "softness": 0.85,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-40",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 41",
-    "artist": "Adele",
-    "brightness": 0.64,
-    "husky": 0.34,
-    "softness": 0.91,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-41",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 42",
-    "artist": "BLACKPINK",
-    "brightness": 0.73,
-    "husky": 0.1,
-    "softness": 0.47,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-42",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 43",
-    "artist": "Younha",
-    "brightness": 0.82,
-    "husky": 0.14,
-    "softness": 0.53,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-43",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 44",
-    "artist": "Taeyeon",
-    "brightness": 0.91,
-    "husky": 0.18,
-    "softness": 0.59,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-44",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 45",
-    "artist": "NewJeans",
-    "brightness": 0.6,
-    "husky": 0.22,
-    "softness": 0.65,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-45",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 46",
-    "artist": "aespa",
-    "brightness": 0.69,
-    "husky": 0.26,
-    "softness": 0.71,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-46",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 47",
-    "artist": "Brave Girls",
-    "brightness": 0.78,
-    "husky": 0.3,
-    "softness": 0.77,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-47",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 48",
-    "artist": "Whitney Houston",
-    "brightness": 0.87,
-    "husky": 0.34,
-    "softness": 0.83,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-48",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 49",
-    "artist": "Heize",
-    "brightness": 0.56,
-    "husky": 0.1,
-    "softness": 0.89,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-49",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 50",
-    "artist": "IU",
-    "brightness": 0.65,
-    "husky": 0.14,
-    "softness": 0.45,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-50",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 51",
-    "artist": "Adele",
-    "brightness": 0.74,
-    "husky": 0.18,
-    "softness": 0.51,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-51",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 52",
-    "artist": "BLACKPINK",
-    "brightness": 0.83,
-    "husky": 0.22,
-    "softness": 0.57,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-52",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 53",
-    "artist": "Younha",
-    "brightness": 0.92,
-    "husky": 0.26,
-    "softness": 0.63,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-53",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 54",
-    "artist": "Taeyeon",
-    "brightness": 0.61,
-    "husky": 0.3,
     "softness": 0.69,
-    "range_level": 1,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-54",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 55",
-    "artist": "NewJeans",
-    "brightness": 0.7,
-    "husky": 0.34,
+    "title": "Shut Down",
+    "artist": "BLACKPINK",
+    "brightness": 0.5,
+    "husky": 0.3,
     "softness": 0.75,
-    "range_level": 2,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-55",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 56",
-    "artist": "aespa",
-    "brightness": 0.79,
-    "husky": 0.1,
+    "title": "Forever Young",
+    "artist": "BLACKPINK",
+    "brightness": 0.59,
+    "husky": 0.34,
     "softness": 0.81,
-    "range_level": 3,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-56",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 57",
-    "artist": "Brave Girls",
-    "brightness": 0.88,
-    "husky": 0.14,
+    "title": "DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "brightness": 0.68,
+    "husky": 0.38,
     "softness": 0.87,
-    "range_level": 1,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-57",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 58",
-    "artist": "Whitney Houston",
-    "brightness": 0.57,
-    "husky": 0.18,
-    "softness": 0.93,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-58",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 59",
-    "artist": "Heize",
-    "brightness": 0.66,
-    "husky": 0.22,
-    "softness": 0.49,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-59",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 60",
-    "artist": "IU",
-    "brightness": 0.75,
-    "husky": 0.26,
-    "softness": 0.55,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-60",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 61",
-    "artist": "Adele",
-    "brightness": 0.84,
-    "husky": 0.3,
-    "softness": 0.61,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-61",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 62",
+    "title": "Kill This Love",
     "artist": "BLACKPINK",
-    "brightness": 0.93,
-    "husky": 0.34,
-    "softness": 0.67,
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
     "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-62",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 63",
-    "artist": "Younha",
-    "brightness": 0.62,
-    "husky": 0.1,
-    "softness": 0.73,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-63",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 64",
-    "artist": "Taeyeon",
-    "brightness": 0.71,
-    "husky": 0.14,
-    "softness": 0.79,
-    "range_level": 2,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-64",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 65",
-    "artist": "NewJeans",
-    "brightness": 0.8,
-    "husky": 0.18,
-    "softness": 0.85,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-65",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 66",
-    "artist": "aespa",
-    "brightness": 0.89,
-    "husky": 0.22,
-    "softness": 0.91,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-66",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 67",
-    "artist": "Brave Girls",
-    "brightness": 0.58,
-    "husky": 0.26,
-    "softness": 0.47,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-67",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 68",
-    "artist": "Whitney Houston",
-    "brightness": 0.67,
-    "husky": 0.3,
-    "softness": 0.53,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-68",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 69",
-    "artist": "Heize",
-    "brightness": 0.76,
-    "husky": 0.34,
-    "softness": 0.59,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-69",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 70",
-    "artist": "IU",
-    "brightness": 0.85,
-    "husky": 0.1,
-    "softness": 0.65,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-70",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 71",
-    "artist": "Adele",
-    "brightness": 0.94,
-    "husky": 0.14,
-    "softness": 0.71,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-71",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 72",
+    "title": "Whistle",
     "artist": "BLACKPINK",
-    "brightness": 0.63,
-    "husky": 0.18,
-    "softness": 0.77,
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
     "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-72",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 73",
-    "artist": "Younha",
-    "brightness": 0.72,
-    "husky": 0.22,
-    "softness": 0.83,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-73",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 74",
-    "artist": "Taeyeon",
-    "brightness": 0.81,
-    "husky": 0.26,
-    "softness": 0.89,
-    "range_level": 3,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-74",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 75",
+    "title": "As If It's Your Last",
+    "artist": "BLACKPINK",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Hype Boy",
     "artist": "NewJeans",
-    "brightness": 0.9,
-    "husky": 0.3,
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Ditto",
+    "artist": "NewJeans",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "OMG",
+    "artist": "NewJeans",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Super Shy",
+    "artist": "NewJeans",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Attention",
+    "artist": "NewJeans",
+    "brightness": 0.5,
+    "husky": 0.1,
     "softness": 0.45,
     "range_level": 1,
-    "difficulty": 3,
+    "difficulty": 2,
     "target_range": "female",
     "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-75",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 76",
+    "title": "ETA",
+    "artist": "NewJeans",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Cookie",
+    "artist": "NewJeans",
+    "brightness": 0.68,
+    "husky": 0.18,
+    "softness": 0.57,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Next Level",
+    "artist": "aespa",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Spicy",
+    "artist": "aespa",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Savage",
+    "artist": "aespa",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Drama",
     "artist": "aespa",
     "brightness": 0.59,
     "husky": 0.34,
-    "softness": 0.51,
-    "range_level": 2,
-    "difficulty": 1,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-76",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 77",
+    "title": "Black Mamba",
+    "artist": "aespa",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Girls",
+    "artist": "aespa",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Whiplash",
+    "artist": "aespa",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Supernova",
+    "artist": "aespa",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "INVU",
+    "artist": "TAEYEON",
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "11:11",
+    "artist": "TAEYEON",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Fine",
+    "artist": "TAEYEON",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Weekend",
+    "artist": "TAEYEON",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "I",
+    "artist": "TAEYEON",
+    "brightness": 0.5,
+    "husky": 0.1,
+    "softness": 0.45,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Spark",
+    "artist": "TAEYEON",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Rain",
+    "artist": "TAEYEON",
+    "brightness": 0.68,
+    "husky": 0.18,
+    "softness": 0.57,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Four Seasons",
+    "artist": "TAEYEON",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "U R",
+    "artist": "TAEYEON",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "To. X",
+    "artist": "TAEYEON",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "혜성",
+    "artist": "Younha",
+    "brightness": 0.59,
+    "husky": 0.34,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "사건의 지평선",
+    "artist": "Younha",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "비밀번호 486",
+    "artist": "Younha",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "기다리다",
+    "artist": "Younha",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "오르트구름",
+    "artist": "Younha",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Breathe",
+    "artist": "Lee Hi",
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Holo",
+    "artist": "Lee Hi",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Rose",
+    "artist": "Lee Hi",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Only",
+    "artist": "Lee Hi",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "No One",
+    "artist": "Lee Hi",
+    "brightness": 0.5,
+    "husky": 0.1,
+    "softness": 0.45,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Rollin'",
+    "artist": "Brave Girls",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Chi Mat Ba Ram",
     "artist": "Brave Girls",
     "brightness": 0.68,
-    "husky": 0.1,
+    "husky": 0.18,
     "softness": 0.57,
     "range_level": 3,
-    "difficulty": 2,
+    "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-77",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 78",
+    "title": "We Ride",
+    "artist": "Brave Girls",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "After We Ride",
+    "artist": "Brave Girls",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Thank You",
+    "artist": "Brave Girls",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "brightness": 0.59,
+    "husky": 0.34,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "I Wanna Dance with Somebody",
+    "artist": "Whitney Houston",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Greatest Love of All",
     "artist": "Whitney Houston",
     "brightness": 0.77,
-    "husky": 0.14,
-    "softness": 0.63,
-    "range_level": 1,
-    "difficulty": 3,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-78",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 79",
-    "artist": "Heize",
+    "title": "Run to You",
+    "artist": "Whitney Houston",
     "brightness": 0.86,
-    "husky": 0.18,
-    "softness": 0.69,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-79",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 80",
-    "artist": "IU",
-    "brightness": 0.55,
-    "husky": 0.22,
-    "softness": 0.75,
-    "range_level": 3,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-80",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 81",
-    "artist": "Adele",
-    "brightness": 0.64,
-    "husky": 0.26,
-    "softness": 0.81,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-81",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 82",
-    "artist": "BLACKPINK",
-    "brightness": 0.73,
-    "husky": 0.3,
-    "softness": 0.87,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-82",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 83",
-    "artist": "Younha",
-    "brightness": 0.82,
-    "husky": 0.34,
-    "softness": 0.93,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-83",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 84",
-    "artist": "Taeyeon",
-    "brightness": 0.91,
-    "husky": 0.1,
-    "softness": 0.49,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-84",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 85",
-    "artist": "NewJeans",
-    "brightness": 0.6,
-    "husky": 0.14,
-    "softness": 0.55,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-85",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 86",
-    "artist": "aespa",
-    "brightness": 0.69,
-    "husky": 0.18,
-    "softness": 0.61,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-86",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 87",
-    "artist": "Brave Girls",
-    "brightness": 0.78,
-    "husky": 0.22,
-    "softness": 0.67,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-87",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 88",
+    "title": "How Will I Know",
     "artist": "Whitney Houston",
-    "brightness": 0.87,
-    "husky": 0.26,
-    "softness": 0.73,
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
     "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-88",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 89",
-    "artist": "Heize",
-    "brightness": 0.56,
-    "husky": 0.3,
-    "softness": 0.79,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-89",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 90",
-    "artist": "IU",
-    "brightness": 0.65,
-    "husky": 0.34,
-    "softness": 0.85,
-    "range_level": 1,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-90",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 91",
-    "artist": "Adele",
-    "brightness": 0.74,
+    "title": "bad guy",
+    "artist": "Billie Eilish",
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Ocean Eyes",
+    "artist": "Billie Eilish",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "everything i wanted",
+    "artist": "Billie Eilish",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "when the party's over",
+    "artist": "Billie Eilish",
+    "brightness": 0.5,
     "husky": 0.1,
-    "softness": 0.91,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-91",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 92",
-    "artist": "BLACKPINK",
-    "brightness": 0.83,
-    "husky": 0.14,
-    "softness": 0.47,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-92",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 93",
-    "artist": "Younha",
-    "brightness": 0.92,
-    "husky": 0.18,
-    "softness": 0.53,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-93",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 94",
-    "artist": "Taeyeon",
-    "brightness": 0.61,
-    "husky": 0.22,
-    "softness": 0.59,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-94",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 95",
-    "artist": "NewJeans",
-    "brightness": 0.7,
-    "husky": 0.26,
-    "softness": 0.65,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-95",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 96",
-    "artist": "aespa",
-    "brightness": 0.79,
-    "husky": 0.3,
-    "softness": 0.71,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-96",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 97",
-    "artist": "Brave Girls",
-    "brightness": 0.88,
-    "husky": 0.34,
-    "softness": 0.77,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-97",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 98",
-    "artist": "Whitney Houston",
-    "brightness": 0.57,
-    "husky": 0.1,
-    "softness": 0.83,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-98",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 99",
-    "artist": "Heize",
-    "brightness": 0.66,
-    "husky": 0.14,
-    "softness": 0.89,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-99",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 100",
-    "artist": "IU",
-    "brightness": 0.75,
-    "husky": 0.18,
     "softness": 0.45,
-    "range_level": 2,
-    "difficulty": 1,
+    "range_level": 1,
+    "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-100",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 101",
-    "artist": "Adele",
-    "brightness": 0.84,
-    "husky": 0.22,
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "brightness": 0.59,
+    "husky": 0.14,
     "softness": 0.51,
-    "range_level": 3,
-    "difficulty": 2,
+    "range_level": 2,
+    "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-101",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 102",
-    "artist": "BLACKPINK",
-    "brightness": 0.93,
-    "husky": 0.26,
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "brightness": 0.68,
+    "husky": 0.18,
     "softness": 0.57,
-    "range_level": 1,
-    "difficulty": 3,
+    "range_level": 3,
+    "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-102",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 103",
-    "artist": "Younha",
-    "brightness": 0.62,
-    "husky": 0.3,
+    "title": "Physical",
+    "artist": "Dua Lipa",
+    "brightness": 0.77,
+    "husky": 0.22,
     "softness": 0.63,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-103",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 104",
-    "artist": "Taeyeon",
-    "brightness": 0.71,
-    "husky": 0.34,
-    "softness": 0.69,
-    "range_level": 3,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-104",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 105",
-    "artist": "NewJeans",
-    "brightness": 0.8,
-    "husky": 0.1,
-    "softness": 0.75,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-105",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 106",
-    "artist": "aespa",
-    "brightness": 0.89,
-    "husky": 0.14,
-    "softness": 0.81,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-106",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 107",
-    "artist": "Brave Girls",
-    "brightness": 0.58,
-    "husky": 0.18,
-    "softness": 0.87,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-107",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 108",
-    "artist": "Whitney Houston",
-    "brightness": 0.67,
-    "husky": 0.22,
-    "softness": 0.93,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-108",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 109",
-    "artist": "Heize",
-    "brightness": 0.76,
+    "title": "New Rules",
+    "artist": "Dua Lipa",
+    "brightness": 0.86,
     "husky": 0.26,
-    "softness": 0.49,
+    "softness": 0.69,
     "range_level": 2,
-    "difficulty": 1,
+    "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-109",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 110",
-    "artist": "IU",
-    "brightness": 0.85,
+    "title": "Houdini",
+    "artist": "Dua Lipa",
+    "brightness": 0.5,
     "husky": 0.3,
-    "softness": 0.55,
+    "softness": 0.75,
     "range_level": 3,
-    "difficulty": 2,
+    "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-110",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 111",
-    "artist": "Adele",
-    "brightness": 0.94,
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "brightness": 0.59,
     "husky": 0.34,
-    "softness": 0.61,
+    "softness": 0.81,
     "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-111",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 112",
-    "artist": "BLACKPINK",
-    "brightness": 0.63,
-    "husky": 0.1,
-    "softness": 0.67,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-112",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 113",
-    "artist": "Younha",
-    "brightness": 0.72,
-    "husky": 0.14,
-    "softness": 0.73,
-    "range_level": 3,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-113",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 114",
-    "artist": "Taeyeon",
-    "brightness": 0.81,
-    "husky": 0.18,
-    "softness": 0.79,
-    "range_level": 1,
+    "title": "Wrecking Ball",
+    "artist": "Miley Cyrus",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-114",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 115",
-    "artist": "NewJeans",
-    "brightness": 0.9,
-    "husky": 0.22,
-    "softness": 0.85,
-    "range_level": 2,
+    "title": "Party In The U.S.A.",
+    "artist": "Miley Cyrus",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-115",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 116",
+    "title": "The Climb",
+    "artist": "Miley Cyrus",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Used To Be Young",
+    "artist": "Miley Cyrus",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Into the New World",
+    "artist": "Girls' Generation",
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Gee",
+    "artist": "Girls' Generation",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Genie",
+    "artist": "Girls' Generation",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Lion Heart",
+    "artist": "Girls' Generation",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Forever 1",
+    "artist": "Girls' Generation",
+    "brightness": 0.5,
+    "husky": 0.1,
+    "softness": 0.45,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Feel My Rhythm",
+    "artist": "Red Velvet",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Psycho",
+    "artist": "Red Velvet",
+    "brightness": 0.68,
+    "husky": 0.18,
+    "softness": 0.57,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Red Flavor",
+    "artist": "Red Velvet",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Bad Boy",
+    "artist": "Red Velvet",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Russian Roulette",
+    "artist": "Red Velvet",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "밤편지",
+    "artist": "IU",
+    "brightness": 0.59,
+    "husky": 0.34,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "좋은 날",
+    "artist": "IU",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Blueming",
+    "artist": "IU",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Celebrity",
+    "artist": "IU",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "금요일에 만나요",
+    "artist": "IU",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Love wins all",
+    "artist": "IU",
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "LILAC",
+    "artist": "IU",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Palette",
+    "artist": "IU",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "eight",
+    "artist": "IU",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Through the Night",
+    "artist": "IU",
+    "brightness": 0.5,
+    "husky": 0.1,
+    "softness": 0.45,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Hello",
+    "artist": "Adele",
+    "brightness": 0.68,
+    "husky": 0.18,
+    "softness": 0.57,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Easy On Me",
+    "artist": "Adele",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Set Fire to the Rain",
+    "artist": "Adele",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "How You Like That",
+    "artist": "BLACKPINK",
+    "brightness": 0.59,
+    "husky": 0.34,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Lovesick Girls",
+    "artist": "BLACKPINK",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Stay",
+    "artist": "BLACKPINK",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Pink Venom",
+    "artist": "BLACKPINK",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Shut Down",
+    "artist": "BLACKPINK",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Forever Young",
+    "artist": "BLACKPINK",
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Kill This Love",
+    "artist": "BLACKPINK",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Whistle",
+    "artist": "BLACKPINK",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "As If It's Your Last",
+    "artist": "BLACKPINK",
+    "brightness": 0.5,
+    "husky": 0.1,
+    "softness": 0.45,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Hype Boy",
+    "artist": "NewJeans",
+    "brightness": 0.59,
+    "husky": 0.14,
+    "softness": 0.51,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Ditto",
+    "artist": "NewJeans",
+    "brightness": 0.68,
+    "husky": 0.18,
+    "softness": 0.57,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "OMG",
+    "artist": "NewJeans",
+    "brightness": 0.77,
+    "husky": 0.22,
+    "softness": 0.63,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Super Shy",
+    "artist": "NewJeans",
+    "brightness": 0.86,
+    "husky": 0.26,
+    "softness": 0.69,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Attention",
+    "artist": "NewJeans",
+    "brightness": 0.5,
+    "husky": 0.3,
+    "softness": 0.75,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "ETA",
+    "artist": "NewJeans",
+    "brightness": 0.59,
+    "husky": 0.34,
+    "softness": 0.81,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Cookie",
+    "artist": "NewJeans",
+    "brightness": 0.68,
+    "husky": 0.38,
+    "softness": 0.87,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Next Level",
+    "artist": "aespa",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Spicy",
+    "artist": "aespa",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Savage",
+    "artist": "aespa",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "Drama",
     "artist": "aespa",
     "brightness": 0.59,
-    "husky": 0.26,
-    "softness": 0.91,
+    "husky": 0.24,
+    "softness": 0.66,
     "range_level": 3,
-    "difficulty": 2,
+    "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-116",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 117",
-    "artist": "Brave Girls",
+    "title": "Black Mamba",
+    "artist": "aespa",
     "brightness": 0.68,
-    "husky": 0.3,
-    "softness": 0.47,
+    "husky": 0.28,
+    "softness": 0.72,
     "range_level": 1,
-    "difficulty": 3,
+    "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-117",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 118",
-    "artist": "Whitney Houston",
+    "title": "Girls",
+    "artist": "aespa",
     "brightness": 0.77,
-    "husky": 0.34,
-    "softness": 0.53,
+    "husky": 0.32,
+    "softness": 0.78,
     "range_level": 2,
-    "difficulty": 1,
+    "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-118",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 119",
-    "artist": "Heize",
+    "title": "Whiplash",
+    "artist": "aespa",
     "brightness": 0.86,
-    "husky": 0.1,
-    "softness": 0.59,
+    "husky": 0.36,
+    "softness": 0.84,
     "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-119",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 120",
-    "artist": "IU",
-    "brightness": 0.55,
-    "husky": 0.14,
-    "softness": 0.65,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-120",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 121",
-    "artist": "Adele",
-    "brightness": 0.64,
-    "husky": 0.18,
-    "softness": 0.71,
-    "range_level": 2,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-121",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 122",
-    "artist": "BLACKPINK",
-    "brightness": 0.73,
-    "husky": 0.22,
-    "softness": 0.77,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-122",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 123",
-    "artist": "Younha",
-    "brightness": 0.82,
-    "husky": 0.26,
-    "softness": 0.83,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-123",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 124",
-    "artist": "Taeyeon",
-    "brightness": 0.91,
-    "husky": 0.3,
-    "softness": 0.89,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-124",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 125",
-    "artist": "NewJeans",
-    "brightness": 0.6,
-    "husky": 0.34,
-    "softness": 0.45,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-125",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 126",
+    "title": "Supernova",
     "artist": "aespa",
-    "brightness": 0.69,
+    "brightness": 0.5,
     "husky": 0.1,
+    "softness": 0.45,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "INVU",
+    "artist": "TAEYEON",
+    "brightness": 0.59,
+    "husky": 0.14,
     "softness": 0.51,
-    "range_level": 1,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-126",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 127",
-    "artist": "Brave Girls",
-    "brightness": 0.78,
-    "husky": 0.14,
+    "title": "11:11",
+    "artist": "TAEYEON",
+    "brightness": 0.68,
+    "husky": 0.18,
     "softness": 0.57,
-    "range_level": 2,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-127",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 128",
-    "artist": "Whitney Houston",
-    "brightness": 0.87,
-    "husky": 0.18,
+    "title": "Fine",
+    "artist": "TAEYEON",
+    "brightness": 0.77,
+    "husky": 0.22,
     "softness": 0.63,
-    "range_level": 3,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-128",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 129",
-    "artist": "Heize",
-    "brightness": 0.56,
-    "husky": 0.22,
+    "title": "Weekend",
+    "artist": "TAEYEON",
+    "brightness": 0.86,
+    "husky": 0.26,
     "softness": 0.69,
-    "range_level": 1,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-129",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 130",
-    "artist": "IU",
-    "brightness": 0.65,
-    "husky": 0.26,
+    "title": "I",
+    "artist": "TAEYEON",
+    "brightness": 0.5,
+    "husky": 0.3,
     "softness": 0.75,
-    "range_level": 2,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-130",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 131",
-    "artist": "Adele",
-    "brightness": 0.74,
-    "husky": 0.3,
+    "title": "Spark",
+    "artist": "TAEYEON",
+    "brightness": 0.59,
+    "husky": 0.34,
     "softness": 0.81,
-    "range_level": 3,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-131",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 132",
-    "artist": "BLACKPINK",
-    "brightness": 0.83,
-    "husky": 0.34,
+    "title": "Rain",
+    "artist": "TAEYEON",
+    "brightness": 0.68,
+    "husky": 0.38,
     "softness": 0.87,
-    "range_level": 1,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-132",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 133",
+    "title": "Four Seasons",
+    "artist": "TAEYEON",
+    "brightness": 0.77,
+    "husky": 0.12,
+    "softness": 0.48,
+    "range_level": 3,
+    "difficulty": 1,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "U R",
+    "artist": "TAEYEON",
+    "brightness": 0.86,
+    "husky": 0.16,
+    "softness": 0.54,
+    "range_level": 1,
+    "difficulty": 2,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "To. X",
+    "artist": "TAEYEON",
+    "brightness": 0.5,
+    "husky": 0.2,
+    "softness": 0.6,
+    "range_level": 2,
+    "difficulty": 3,
+    "target_range": "female",
+    "tags": [
+      "female",
+      "vocal",
+      "mvp"
+    ],
+    "external_url": "",
+    "cover_url": ""
+  },
+  {
+    "title": "혜성",
     "artist": "Younha",
-    "brightness": 0.92,
-    "husky": 0.1,
-    "softness": 0.93,
-    "range_level": 2,
+    "brightness": 0.59,
+    "husky": 0.24,
+    "softness": 0.66,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-133",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 134",
-    "artist": "Taeyeon",
-    "brightness": 0.61,
-    "husky": 0.14,
-    "softness": 0.49,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-134",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 135",
-    "artist": "NewJeans",
-    "brightness": 0.7,
-    "husky": 0.18,
-    "softness": 0.55,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-135",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 136",
-    "artist": "aespa",
-    "brightness": 0.79,
-    "husky": 0.22,
-    "softness": 0.61,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-136",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 137",
-    "artist": "Brave Girls",
-    "brightness": 0.88,
-    "husky": 0.26,
-    "softness": 0.67,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-137",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 138",
-    "artist": "Whitney Houston",
-    "brightness": 0.57,
-    "husky": 0.3,
-    "softness": 0.73,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-138",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 139",
-    "artist": "Heize",
-    "brightness": 0.66,
-    "husky": 0.34,
-    "softness": 0.79,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-139",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 140",
-    "artist": "IU",
-    "brightness": 0.75,
-    "husky": 0.1,
-    "softness": 0.85,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-140",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 141",
-    "artist": "Adele",
-    "brightness": 0.84,
-    "husky": 0.14,
-    "softness": 0.91,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-141",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 142",
-    "artist": "BLACKPINK",
-    "brightness": 0.93,
-    "husky": 0.18,
-    "softness": 0.47,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-142",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 143",
+    "title": "사건의 지평선",
     "artist": "Younha",
-    "brightness": 0.62,
-    "husky": 0.22,
-    "softness": 0.53,
-    "range_level": 3,
+    "brightness": 0.68,
+    "husky": 0.28,
+    "softness": 0.72,
+    "range_level": 1,
     "difficulty": 2,
     "target_range": "female",
     "tags": [
+      "female",
       "vocal",
-      "bright"
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-143",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 144",
-    "artist": "Taeyeon",
-    "brightness": 0.71,
-    "husky": 0.26,
-    "softness": 0.59,
-    "range_level": 1,
+    "title": "비밀번호 486",
+    "artist": "Younha",
+    "brightness": 0.77,
+    "husky": 0.32,
+    "softness": 0.78,
+    "range_level": 2,
     "difficulty": 3,
     "target_range": "female",
     "tags": [
-      "bright",
-      "soft"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-144",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 145",
-    "artist": "NewJeans",
-    "brightness": 0.8,
-    "husky": 0.3,
-    "softness": 0.65,
-    "range_level": 2,
+    "title": "기다리다",
+    "artist": "Younha",
+    "brightness": 0.86,
+    "husky": 0.36,
+    "softness": 0.84,
+    "range_level": 3,
     "difficulty": 1,
     "target_range": "female",
     "tags": [
-      "soft",
-      "pop"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-145",
+    "external_url": "",
     "cover_url": ""
   },
   {
-    "title": "VoiceFit Female Track 146",
-    "artist": "aespa",
-    "brightness": 0.89,
-    "husky": 0.34,
-    "softness": 0.71,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "pop",
-      "vocal"
-    ],
-    "external_url": "https://example.com/female-track-146",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 147",
-    "artist": "Brave Girls",
-    "brightness": 0.58,
+    "title": "오르트구름",
+    "artist": "Younha",
+    "brightness": 0.5,
     "husky": 0.1,
-    "softness": 0.77,
-    "range_level": 1,
-    "difficulty": 3,
-    "target_range": "female",
-    "tags": [
-      "vocal",
-      "bright"
-    ],
-    "external_url": "https://example.com/female-track-147",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 148",
-    "artist": "Whitney Houston",
-    "brightness": 0.67,
-    "husky": 0.14,
-    "softness": 0.83,
-    "range_level": 2,
-    "difficulty": 1,
-    "target_range": "female",
-    "tags": [
-      "bright",
-      "soft"
-    ],
-    "external_url": "https://example.com/female-track-148",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 149",
-    "artist": "Heize",
-    "brightness": 0.76,
-    "husky": 0.18,
-    "softness": 0.89,
-    "range_level": 3,
-    "difficulty": 2,
-    "target_range": "female",
-    "tags": [
-      "soft",
-      "pop"
-    ],
-    "external_url": "https://example.com/female-track-149",
-    "cover_url": ""
-  },
-  {
-    "title": "VoiceFit Female Track 150",
-    "artist": "IU",
-    "brightness": 0.85,
-    "husky": 0.22,
     "softness": 0.45,
     "range_level": 1,
-    "difficulty": 3,
+    "difficulty": 2,
     "target_range": "female",
     "tags": [
-      "pop",
-      "vocal"
+      "female",
+      "vocal",
+      "mvp"
     ],
-    "external_url": "https://example.com/female-track-150",
+    "external_url": "",
     "cover_url": ""
   }
 ]

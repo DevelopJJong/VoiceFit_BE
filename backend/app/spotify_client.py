@@ -49,31 +49,32 @@ def find_cover_url(title: str, artist: str) -> Optional[str]:
         if not token:
             return None
 
-        query = f"track:{title} artist:{artist}"
-        qs = urllib.parse.urlencode(
-            {
-                "q": query,
-                "type": "track",
-                "limit": 1,
-            }
-        )
-        req = urllib.request.Request(
-            f"{SPOTIFY_SEARCH_URL}?{qs}",
-            headers={"Authorization": f"Bearer {token}"},
-            method="GET",
-        )
+        queries = [f"track:{title} artist:{artist}", f"track:{title}"]
+        for query in queries:
+            qs = urllib.parse.urlencode(
+                {
+                    "q": query,
+                    "type": "track",
+                    "limit": 1,
+                }
+            )
+            req = urllib.request.Request(
+                f"{SPOTIFY_SEARCH_URL}?{qs}",
+                headers={"Authorization": f"Bearer {token}"},
+                method="GET",
+            )
 
-        with urllib.request.urlopen(req, timeout=SPOTIFY_TIMEOUT_SEC) as resp:
-            payload = json.loads(resp.read().decode("utf-8"))
+            with urllib.request.urlopen(req, timeout=SPOTIFY_TIMEOUT_SEC) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
 
-        items = payload.get("tracks", {}).get("items", [])
-        if not items:
-            return None
+            items = payload.get("tracks", {}).get("items", [])
+            if not items:
+                continue
 
-        images = items[0].get("album", {}).get("images", [])
-        if not images:
-            return None
-        return images[0].get("url")
+            images = items[0].get("album", {}).get("images", [])
+            if images:
+                return images[0].get("url")
+        return None
     except Exception as err:
         logger.warning("spotify cover lookup failed title=%s artist=%s err=%s", title, artist, err)
         return None
