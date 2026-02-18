@@ -19,6 +19,7 @@ from app.config import (
     MAX_DURATION_SEC,
     MIN_DURATION_SEC,
     RMS_TRIM_THRESHOLD,
+    SILENT_AUDIO_RMS_THRESHOLD,
     TARGET_SR,
     AppError,
     logger,
@@ -300,6 +301,13 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
 
         rms_mean = float(np.sqrt(np.mean(np.square(y))) if y.size else 0.0)
         clipping_ratio = float(np.mean(np.abs(y) >= CLIPPING_VALUE) if y.size else 0.0)
+        if rms_mean < SILENT_AUDIO_RMS_THRESHOLD:
+            raise AppError(
+                code="SILENT_AUDIO",
+                message="녹음된 소리가 거의 없습니다.",
+                hint="마이크 권한/입력 장치를 확인하고 음성을 3초 이상 녹음하세요.",
+                status_code=400,
+            )
 
         signal_quality = "good"
         notes: list[str] = []

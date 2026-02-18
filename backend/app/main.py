@@ -12,6 +12,7 @@ from app.audio_utils import load_audio_from_upload
 from app.config import CORS_ORIGINS, AppError, logger
 from app.feature_extractor import (
     compute_confidence,
+    detect_non_vocal,
     extract_features,
     profile_from_features,
     summarize_profile,
@@ -200,6 +201,14 @@ async def analyze(
         t1 = time.perf_counter()
         logger.info("analyze feature_start")
         features = extract_features(audio_result.waveform, audio_result.sr)
+        non_vocal, reason = detect_non_vocal(features)
+        if non_vocal:
+            raise AppError(
+                code="NON_VOCAL_INPUT",
+                message="음성으로 판단하기 어려운 입력입니다.",
+                hint=f"{reason} 또렷한 말/노래를 3초 이상 녹음해 주세요.",
+                status_code=400,
+            )
         profile = profile_from_features(features)
         summary = summarize_profile(profile)
         logger.info(

@@ -169,3 +169,21 @@ def compute_confidence(
         score -= _normalize(pitch_std, 40.0, 120.0) * 0.05
 
     return _clamp01(score)
+
+
+def detect_non_vocal(features: Dict[str, float]) -> tuple[bool, str]:
+    voiced = features.get("voiced_score", 0.0)
+    pitch = features.get("pitch_mean", 0.0)
+    flat = features.get("flatness_mean", 0.0)
+    zcr = features.get("zcr_mean", 0.0)
+    rms = features.get("rms_mean", 0.0)
+
+    if rms < 0.003:
+        return True, "음성 에너지가 낮아 분석이 어렵습니다."
+    if voiced < 0.22 and pitch < 85.0:
+        return True, "유효한 음성 구간이 충분하지 않습니다."
+    if flat > 0.33 and voiced < 0.35:
+        return True, "잡음성 신호 비율이 높습니다."
+    if zcr > 0.17 and voiced < 0.30:
+        return True, "비음성 신호(잡음/타격음) 패턴입니다."
+    return False, ""
