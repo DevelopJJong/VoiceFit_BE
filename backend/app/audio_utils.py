@@ -14,6 +14,7 @@ from app.config import (
     BAD_SIGNAL_RMS_THRESHOLD,
     CLIPPING_SAMPLE_THRESHOLD,
     CLIPPING_VALUE,
+    MAX_UPLOAD_BYTES,
     MAX_DURATION_SEC,
     MIN_DURATION_SEC,
     RMS_TRIM_THRESHOLD,
@@ -107,8 +108,29 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
     converted_path: Optional[Path] = None
 
     try:
-        content = upload_file.file.read()
-        raw_path.write_bytes(content)
+        total_bytes = 0
+        with raw_path.open("wb") as f:
+            while True:
+                chunk = upload_file.file.read(1024 * 1024)
+                if not chunk:
+                    break
+                total_bytes += len(chunk)
+                if total_bytes > MAX_UPLOAD_BYTES:
+                    raise AppError(
+                        code="FILE_TOO_LARGE",
+                        message="업로드 파일 크기가 너무 큽니다.",
+                        hint="15MB 이하 파일로 업로드하거나 녹음 길이를 줄여주세요.",
+                        status_code=400,
+                    )
+                f.write(chunk)
+
+        if total_bytes == 0:
+            raise AppError(
+                code="EMPTY_FILE",
+                message="업로드 파일이 비어 있습니다.",
+                hint="녹음 파일이 정상 생성되었는지 확인하세요.",
+                status_code=400,
+            )
 
         try:
             y = _load_with_librosa(raw_path)
