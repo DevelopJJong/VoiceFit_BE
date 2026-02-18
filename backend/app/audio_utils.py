@@ -81,6 +81,7 @@ def _validate_wav_header(path: Path) -> None:
             channels = wav.getnchannels()
             framerate = wav.getframerate()
             nframes = wav.getnframes()
+            sample_width = wav.getsampwidth()
     except Exception as err:
         raise AppError(
             code="INVALID_WAV",
@@ -94,6 +95,13 @@ def _validate_wav_header(path: Path) -> None:
             code="INVALID_WAV",
             message="WAV 메타데이터가 유효하지 않습니다.",
             hint="3초 이상의 정상 WAV 파일인지 확인하세요.",
+            status_code=400,
+        )
+    if channels > 2 or framerate > 96000 or sample_width not in {1, 2, 3, 4}:
+        raise AppError(
+            code="UNSUPPORTED_WAV_ENCODING",
+            message="지원하지 않는 WAV 포맷입니다.",
+            hint="mono/stereo PCM 16-bit WAV 파일을 업로드하세요.",
             status_code=400,
         )
 
@@ -119,6 +127,25 @@ def _load_wav_with_wave(path: Path) -> np.ndarray:
         data = (data - 128.0) / 128.0
     elif sample_width == 2:
         data = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768.0
+    elif sample_width == 3:
+        # 24-bit PCM handling
+        raw_u8 = np.frombuffer(raw, dtype=np.uint8)
+        usable = (raw_u8.size // 3) * 3
+        if usable == 0:
+            raise AppError(
+                code="INVALID_WAV",
+                message="WAV 데이터 길이가 유효하지 않습니다.",
+                hint="파일이 손상되었을 수 있습니다. 다시 업로드하세요.",
+                status_code=400,
+            )
+        b = raw_u8[:usable].reshape(-1, 3)
+        signed = (
+            b[:, 0].astype(np.int32)
+            | (b[:, 1].astype(np.int32) << 8)
+            | (b[:, 2].astype(np.int32) << 16)
+        )
+        signed = np.where(signed & 0x800000, signed - 0x1000000, signed)
+        data = signed.astype(np.float32) / 8388608.0
     elif sample_width == 4:
         data = np.frombuffer(raw, dtype=np.int32).astype(np.float32) / 2147483648.0
     else:
@@ -133,7 +160,19 @@ def _load_wav_with_wave(path: Path) -> np.ndarray:
         data = data.reshape(-1, channels).mean(axis=1)
     y = np.asarray(data, dtype=np.float32)
     if sr_native != TARGET_SR:
-        y = librosa.resample(y, orig_sr=sr_native, target_sr=TARGET_SR)
+        # Lightweight resample to reduce cloud runtime instability from heavy backends.
+        old_len = y.shape[0]
+        new_len = int(old_len * TARGET_SR / sr_native)
+        if new_len <= 0:
+            raise AppError(
+                code="INVALID_AUDIO_SIGNAL",
+                message="오디오 길이가 유효하지 않습니다.",
+                hint="다른 파일로 다시 시도하세요.",
+                status_code=400,
+            )
+        old_x = np.linspace(0.0, 1.0, num=old_len, endpoint=False)
+        new_x = np.linspace(0.0, 1.0, num=new_len, endpoint=False)
+        y = np.interp(new_x, old_x, y).astype(np.float32)
     return y.astype(np.float32)
 
 
