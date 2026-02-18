@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import tempfile
+import wave
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
 import librosa
 import numpy as np
+import soundfile as sf
 from fastapi import UploadFile
 
 from app.config import (
@@ -38,6 +40,7 @@ class AudioLoadResult:
     note: str
     rms_mean: float
     clipping_ratio: float
+    uploaded_bytes: int
 
 
 def _safe_suffix(filename: Optional[str]) -> str:
@@ -70,6 +73,50 @@ def _trim_silence(y: np.ndarray) -> np.ndarray:
 def _load_with_librosa(path: Path) -> np.ndarray:
     # Decode only the first MAX_DURATION_SEC to avoid long decode time / OOM on cloud runtimes.
     y, _ = librosa.load(path.as_posix(), sr=TARGET_SR, mono=True, duration=MAX_DURATION_SEC)
+    return y.astype(np.float32)
+
+
+def _validate_wav_header(path: Path) -> None:
+    try:
+        with wave.open(path.as_posix(), "rb") as wav:
+            channels = wav.getnchannels()
+            framerate = wav.getframerate()
+            nframes = wav.getnframes()
+    except Exception as err:
+        raise AppError(
+            code="INVALID_WAV",
+            message="WAV 파일 헤더가 손상되었거나 형식이 올바르지 않습니다.",
+            hint="브라우저에서 다시 녹음하거나 표준 PCM WAV로 변환 후 업로드하세요.",
+            status_code=400,
+        ) from err
+
+    if channels <= 0 or framerate <= 0 or nframes <= 0:
+        raise AppError(
+            code="INVALID_WAV",
+            message="WAV 메타데이터가 유효하지 않습니다.",
+            hint="3초 이상의 정상 WAV 파일인지 확인하세요.",
+            status_code=400,
+        )
+
+
+def _load_wav_with_soundfile(path: Path) -> np.ndarray:
+    try:
+        info = sf.info(path.as_posix())
+        max_frames = int(MAX_DURATION_SEC * info.samplerate)
+        y, sr_native = sf.read(path.as_posix(), frames=max_frames, dtype="float32", always_2d=False)
+    except Exception as err:
+        raise AppError(
+            code="AUDIO_DECODE_ERROR",
+            message="WAV 디코딩에 실패했습니다.",
+            hint="손상된 파일일 수 있습니다. 파일을 다시 생성해 업로드하세요.",
+            status_code=400,
+        ) from err
+
+    if isinstance(y, np.ndarray) and y.ndim > 1:
+        y = np.mean(y, axis=1)
+    y = np.asarray(y, dtype=np.float32)
+    if sr_native != TARGET_SR:
+        y = librosa.resample(y, orig_sr=sr_native, target_sr=TARGET_SR)
     return y.astype(np.float32)
 
 
@@ -143,15 +190,36 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
                 status_code=400,
             )
 
+        logger.info(
+            "audio upload received filename=%s ext=%s bytes=%d content_type=%s",
+            upload_file.filename,
+            ext,
+            total_bytes,
+            upload_file.content_type,
+        )
+
         try:
-            y = _load_with_librosa(raw_path)
+            if ext == "wav":
+                _validate_wav_header(raw_path)
+                y = _load_wav_with_soundfile(raw_path)
+            else:
+                y = _load_with_librosa(raw_path)
         except Exception as err:
-            logger.warning("librosa load failed: %s", err)
+            if isinstance(err, AppError):
+                raise
+            logger.warning("primary decode failed: %s", err)
             converted_path = _convert_with_pydub(raw_path)
             y = _load_with_librosa(converted_path)
 
         y = _clamp_duration(y, TARGET_SR)
         y = _trim_silence(y)
+        if not np.all(np.isfinite(y)):
+            raise AppError(
+                code="INVALID_AUDIO_SIGNAL",
+                message="오디오 신호에 유효하지 않은 값이 포함되어 있습니다.",
+                hint="다른 파일로 다시 시도하세요.",
+                status_code=400,
+            )
 
         duration_sec = float(y.shape[0] / TARGET_SR) if y.size > 0 else 0.0
         if duration_sec < MIN_DURATION_SEC:
@@ -190,6 +258,7 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
             note=note,
             rms_mean=rms_mean,
             clipping_ratio=clipping_ratio,
+            uploaded_bytes=total_bytes,
         )
     finally:
         try:

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import time
 from typing import Any
 
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
@@ -161,6 +162,13 @@ async def analyze(
     allow_cross_gender: str = Form("false"),
     mock: str = Form("false"),
 ) -> dict[str, Any]:
+    started = time.perf_counter()
+    logger.info(
+        "analyze start filename=%s content_type=%s vocal_range_mode=%s",
+        file.filename,
+        file.content_type,
+        vocal_range_mode,
+    )
     vocal_range_mode = vocal_range_mode.strip().lower()
     if vocal_range_mode not in {"male", "female", "any"}:
         raise AppError(
@@ -174,28 +182,54 @@ async def analyze(
     is_mock = _parse_bool(mock, default=False)
 
     if is_mock:
+        logger.info("analyze mock response served in %.3fs", time.perf_counter() - started)
         return _build_mock_response(vocal_range_mode, allow_cross_gender_bool)
 
-    audio_result = load_audio_from_upload(file)
-    features = extract_features(audio_result.waveform, audio_result.sr)
-    profile = profile_from_features(features)
-    summary = summarize_profile(profile)
-    confidence = compute_confidence(
-        duration_sec=audio_result.duration_sec,
-        signal_quality=audio_result.signal_quality,
-        rms_mean=audio_result.rms_mean,
-        clipping_ratio=audio_result.clipping_ratio,
-    )
+    try:
+        t0 = time.perf_counter()
+        audio_result = load_audio_from_upload(file)
+        logger.info(
+            "analyze audio_loaded duration=%.2fs quality=%s bytes=%d took=%.3fs",
+            audio_result.duration_sec,
+            audio_result.signal_quality,
+            audio_result.uploaded_bytes,
+            time.perf_counter() - t0,
+        )
 
-    songs = load_song_db()
-    recommendations = recommend_songs(
-        user_profile=profile,
-        songs=songs,
-        vocal_range_mode=vocal_range_mode,
-        allow_cross_gender=allow_cross_gender_bool,
-        top_k=5,
-    )
+        t1 = time.perf_counter()
+        features = extract_features(audio_result.waveform, audio_result.sr)
+        profile = profile_from_features(features)
+        summary = summarize_profile(profile)
+        confidence = compute_confidence(
+            duration_sec=audio_result.duration_sec,
+            signal_quality=audio_result.signal_quality,
+            rms_mean=audio_result.rms_mean,
+            clipping_ratio=audio_result.clipping_ratio,
+        )
+        logger.info("analyze feature_done took=%.3fs", time.perf_counter() - t1)
 
+        t2 = time.perf_counter()
+        songs = load_song_db()
+        recommendations = recommend_songs(
+            user_profile=profile,
+            songs=songs,
+            vocal_range_mode=vocal_range_mode,
+            allow_cross_gender=allow_cross_gender_bool,
+            top_k=5,
+        )
+        logger.info("analyze recommend_done took=%.3fs", time.perf_counter() - t2)
+    except AppError:
+        raise
+    except Exception as exc:
+        logger.exception("analyze failed unexpectedly", exc_info=exc)
+        raise AppError(
+            code="ANALYZE_FAILED",
+            message="음성 분석 처리에 실패했습니다.",
+            hint="파일 형식/길이를 확인하고 다시 시도하세요.",
+            status_code=500,
+        ) from exc
+
+    logger.info("analyze done total=%.3fs", time.perf_counter() - started)
     return {
         "profile": profile,
         "summary": summary,
