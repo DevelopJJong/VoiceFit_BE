@@ -202,11 +202,20 @@ async def analyze(
         features = extract_features(audio_result.waveform, audio_result.sr)
         profile = profile_from_features(features)
         summary = summarize_profile(profile)
+        logger.info(
+            "analyze profile brightness=%.3f husky=%.3f softness=%.3f pitch=%.1f",
+            profile["brightness"],
+            profile["husky"],
+            profile["softness"],
+            features.get("pitch_mean", 0.0),
+        )
         confidence = compute_confidence(
             duration_sec=audio_result.duration_sec,
             signal_quality=audio_result.signal_quality,
             rms_mean=audio_result.rms_mean,
             clipping_ratio=audio_result.clipping_ratio,
+            voiced_score=features.get("voiced_score", 0.0),
+            pitch_std=features.get("pitch_std", 0.0),
         )
         logger.info("analyze feature_done took=%.3fs", time.perf_counter() - t1)
 

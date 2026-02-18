@@ -23,6 +23,41 @@ def _frame_signal(y: np.ndarray, frame_size: int, hop_size: int) -> np.ndarray:
     return y[idx]
 
 
+def _estimate_pitch_stats(frames: np.ndarray, sr: int) -> tuple[float, float, float]:
+    min_f0 = 70.0
+    max_f0 = 450.0
+    min_lag = int(sr / max_f0)
+    max_lag = int(sr / min_f0)
+
+    f0s: list[float] = []
+    voiced_scores: list[float] = []
+    for frame in frames:
+        x = frame - np.mean(frame)
+        energy = np.sum(np.square(x))
+        if energy < 1e-6:
+            continue
+        corr = np.correlate(x, x, mode="full")
+        corr = corr[corr.size // 2 :]
+        if max_lag >= corr.size:
+            continue
+        search = corr[min_lag:max_lag]
+        if search.size == 0:
+            continue
+        peak_idx = int(np.argmax(search))
+        peak_val = float(search[peak_idx] / (corr[0] + 1e-10))
+        if peak_val < 0.25:
+            continue
+        lag = peak_idx + min_lag
+        f0s.append(float(sr / lag))
+        voiced_scores.append(peak_val)
+
+    if not f0s:
+        return 0.0, 0.0, 0.0
+    f0 = np.asarray(f0s, dtype=np.float32)
+    voiced = np.asarray(voiced_scores, dtype=np.float32)
+    return float(np.mean(f0)), float(np.std(f0)), float(np.mean(voiced))
+
+
 def extract_features(y: np.ndarray, sr: int) -> Dict[str, float]:
     frame_size = 1024
     hop_size = 256
@@ -44,6 +79,8 @@ def extract_features(y: np.ndarray, sr: int) -> Dict[str, float]:
     sign = np.sign(frames)
     zc = np.mean(np.abs(np.diff(sign, axis=1)) > 0, axis=1)
     rms = np.sqrt(np.mean(np.square(frames), axis=1))
+    flatness = np.exp(np.mean(np.log(power), axis=1)) / (np.mean(power, axis=1) + 1e-10)
+    pitch_mean, pitch_std, voiced_score = _estimate_pitch_stats(frames, sr)
 
     # Lightweight cepstral proxy for MVP stability (keeps mfcc_mean field contract).
     mean_power = np.mean(power, axis=0)
@@ -56,17 +93,35 @@ def extract_features(y: np.ndarray, sr: int) -> Dict[str, float]:
         "spectral_rolloff_mean": float(np.mean(rolloff)),
         "zcr_mean": float(np.mean(zc)),
         "rms_mean": float(np.mean(rms)),
+        "flatness_mean": float(np.mean(flatness)),
+        "pitch_mean": pitch_mean,
+        "pitch_std": pitch_std,
+        "voiced_score": voiced_score,
     }
 
 
 def profile_from_features(features: Dict[str, float]) -> Dict[str, float]:
     centroid = features["spectral_centroid_mean"]
+    rolloff = features["spectral_rolloff_mean"]
     zcr = features["zcr_mean"]
     rms = features["rms_mean"]
+    flatness = features.get("flatness_mean", 0.0)
+    pitch_mean = features.get("pitch_mean", 0.0)
+    pitch_std = features.get("pitch_std", 0.0)
+    voiced = features.get("voiced_score", 0.0)
 
-    brightness = _normalize(centroid, 500.0, 3500.0)
-    husky = _normalize(zcr, 0.02, 0.20)
-    softness = 1.0 - _normalize(rms, 0.01, 0.20)
+    centroid_n = _normalize(centroid, 500.0, 3500.0)
+    rolloff_n = _normalize(rolloff, 1200.0, 6500.0)
+    pitch_n = _normalize(pitch_mean, 90.0, 320.0)
+    zcr_n = _normalize(zcr, 0.02, 0.20)
+    rms_n = _normalize(rms, 0.01, 0.20)
+    flat_n = _normalize(flatness, 0.03, 0.45)
+    pitch_std_n = _normalize(pitch_std, 5.0, 70.0)
+    voiced_n = _normalize(voiced, 0.20, 0.80)
+
+    brightness = 0.45 * centroid_n + 0.35 * rolloff_n + 0.20 * pitch_n
+    husky = 0.55 * zcr_n + 0.30 * flat_n + 0.15 * (1.0 - voiced_n)
+    softness = 0.50 * (1.0 - rms_n) + 0.25 * (1.0 - zcr_n) + 0.15 * (1.0 - flat_n) + 0.10 * (1.0 - pitch_std_n)
 
     return {
         "brightness": _clamp01(brightness),
@@ -92,6 +147,8 @@ def compute_confidence(
     signal_quality: str,
     rms_mean: float,
     clipping_ratio: float,
+    voiced_score: float = 0.0,
+    pitch_std: float = 0.0,
 ) -> float:
     score = 0.45
 
@@ -106,5 +163,9 @@ def compute_confidence(
         score -= 0.10
     if clipping_ratio > 0.01:
         score -= 0.10
+    if voiced_score > 0:
+        score += _normalize(voiced_score, 0.2, 0.8) * 0.08
+    if pitch_std > 0:
+        score -= _normalize(pitch_std, 40.0, 120.0) * 0.05
 
     return _clamp01(score)
