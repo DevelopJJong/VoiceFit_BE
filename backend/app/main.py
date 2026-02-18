@@ -19,6 +19,7 @@ from app.feature_extractor import (
 from app.recommender import recommend_songs
 from app.schemas import AnalyzeResponse, ErrorResponse
 from app.song_db import load_song_db
+from app.spotify_client import find_cover_url
 
 app = FastAPI(title="VoiceFit Backend", version="0.1.0")
 
@@ -218,6 +219,12 @@ async def analyze(
             allow_cross_gender=allow_cross_gender_bool,
             top_k=5,
         )
+        for item in recommendations:
+            if item.get("cover_url"):
+                continue
+            cover_url = find_cover_url(item["title"], item["artist"])
+            if cover_url:
+                item["cover_url"] = cover_url
         logger.info("analyze recommend_done took=%.3fs", time.perf_counter() - t2)
     except AppError:
         raise

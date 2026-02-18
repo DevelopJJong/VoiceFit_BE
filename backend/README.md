@@ -13,6 +13,14 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
+### Spotify 커버 조회(선택)
+`cover_url`이 비어 있는 곡은 Spotify Search API로 자동 조회할 수 있습니다.
+
+```bash
+export SPOTIFY_CLIENT_ID=your_client_id
+export SPOTIFY_CLIENT_SECRET=your_client_secret
+```
+
 ## 3) ffmpeg (선택)
 `webm/ogg/m4a` 등에서 `librosa` 로딩이 실패하면 `pydub + ffmpeg` 경로를 사용합니다.
 

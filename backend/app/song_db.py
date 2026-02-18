@@ -36,4 +36,22 @@ def load_song_db() -> List[Dict[str, Any]]:
             hint="[{...}, {...}] 형태인지 확인하세요.",
             status_code=500,
         )
+
+    if len(data) < 300:
+        raise AppError(
+            code="SONG_DB_TOO_SMALL",
+            message="song_db.json 곡 수가 부족합니다.",
+            hint="최소 300곡 이상이 필요합니다.",
+            status_code=500,
+        )
+
+    male_count = sum(1 for x in data if x.get("target_range") == "male")
+    female_count = sum(1 for x in data if x.get("target_range") == "female")
+    if male_count == 0 or female_count == 0:
+        raise AppError(
+            code="SONG_DB_RANGE_INVALID",
+            message="남/여 타겟 곡 분리가 필요합니다.",
+            hint="target_range가 male/female인 곡을 각각 포함하세요.",
+            status_code=500,
+        )
     return data

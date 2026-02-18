@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import os
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -18,6 +19,10 @@ RMS_TRIM_THRESHOLD = 0.01
 BAD_SIGNAL_RMS_THRESHOLD = 0.005
 CLIPPING_SAMPLE_THRESHOLD = 0.01
 CLIPPING_VALUE = 0.99
+
+SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", "")
+SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", "")
+SPOTIFY_TIMEOUT_SEC = float(os.getenv("SPOTIFY_TIMEOUT_SEC", "5"))
 
 CORS_ORIGINS = [
     "http://localhost:5173",
