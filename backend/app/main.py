@@ -51,6 +51,8 @@ async def ensure_cors_headers(request: Request, call_next: Any):
     try:
         response = await call_next(request)
         return attach_cors(response)
+    except AppError as exc:
+        return attach_cors(_error_response(exc.status_code, exc.code, exc.message, exc.hint))
     except Exception as exc:
         logger.exception("middleware caught unhandled error", exc_info=exc)
         return attach_cors(
