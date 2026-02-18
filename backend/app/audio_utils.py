@@ -8,7 +8,6 @@ from typing import Optional
 
 import librosa
 import numpy as np
-import soundfile as sf
 from fastapi import UploadFile
 
 from app.config import (
@@ -99,11 +98,14 @@ def _validate_wav_header(path: Path) -> None:
         )
 
 
-def _load_wav_with_soundfile(path: Path) -> np.ndarray:
+def _load_wav_with_wave(path: Path) -> np.ndarray:
     try:
-        info = sf.info(path.as_posix())
-        max_frames = int(MAX_DURATION_SEC * info.samplerate)
-        y, sr_native = sf.read(path.as_posix(), frames=max_frames, dtype="float32", always_2d=False)
+        with wave.open(path.as_posix(), "rb") as wav:
+            channels = wav.getnchannels()
+            sr_native = wav.getframerate()
+            sample_width = wav.getsampwidth()
+            max_frames = int(MAX_DURATION_SEC * sr_native)
+            raw = wav.readframes(max_frames)
     except Exception as err:
         raise AppError(
             code="AUDIO_DECODE_ERROR",
@@ -112,9 +114,24 @@ def _load_wav_with_soundfile(path: Path) -> np.ndarray:
             status_code=400,
         ) from err
 
-    if isinstance(y, np.ndarray) and y.ndim > 1:
-        y = np.mean(y, axis=1)
-    y = np.asarray(y, dtype=np.float32)
+    if sample_width == 1:
+        data = np.frombuffer(raw, dtype=np.uint8).astype(np.float32)
+        data = (data - 128.0) / 128.0
+    elif sample_width == 2:
+        data = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768.0
+    elif sample_width == 4:
+        data = np.frombuffer(raw, dtype=np.int32).astype(np.float32) / 2147483648.0
+    else:
+        raise AppError(
+            code="UNSUPPORTED_WAV_ENCODING",
+            message="지원하지 않는 WAV 샘플 포맷입니다.",
+            hint="PCM 16-bit WAV 형식으로 변환 후 업로드하세요.",
+            status_code=400,
+        )
+
+    if channels > 1:
+        data = data.reshape(-1, channels).mean(axis=1)
+    y = np.asarray(data, dtype=np.float32)
     if sr_native != TARGET_SR:
         y = librosa.resample(y, orig_sr=sr_native, target_sr=TARGET_SR)
     return y.astype(np.float32)
@@ -201,7 +218,7 @@ def load_audio_from_upload(upload_file: UploadFile) -> AudioLoadResult:
         try:
             if ext == "wav":
                 _validate_wav_header(raw_path)
-                y = _load_wav_with_soundfile(raw_path)
+                y = _load_wav_with_wave(raw_path)
             else:
                 y = _load_with_librosa(raw_path)
         except Exception as err:
