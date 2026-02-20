@@ -19,6 +19,10 @@ uvicorn app.main:app --reload --port 8000
 ```bash
 export SPOTIFY_CLIENT_ID=your_client_id
 export SPOTIFY_CLIENT_SECRET=your_client_secret
+
+# 추천곡 설명 고도화(OpenAI, 선택)
+export OPENAI_API_KEY=your_openai_api_key
+export OPENAI_MODEL=gpt-4o-mini
 ```
 
 ## 3) ffmpeg (선택)

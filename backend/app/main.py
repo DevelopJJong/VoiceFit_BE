@@ -17,6 +17,7 @@ from app.feature_extractor import (
     profile_from_features,
     summarize_profile,
 )
+from app.openai_client import enrich_recommendation_reasons
 from app.recommender import recommend_songs
 from app.schemas import AnalyzeResponse, ErrorResponse
 from app.song_db import load_song_db
@@ -239,6 +240,8 @@ async def analyze(
             allow_cross_gender=allow_cross_gender_bool,
             top_k=5,
         )
+        recommendations = enrich_recommendation_reasons(profile, recommendations)
+
         for item in recommendations:
             if item.get("cover_url"):
                 continue
