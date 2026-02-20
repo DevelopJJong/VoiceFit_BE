@@ -23,6 +23,10 @@ export SPOTIFY_CLIENT_SECRET=your_client_secret
 # 추천곡 설명 고도화(OpenAI, 선택)
 export OPENAI_API_KEY=your_openai_api_key
 export OPENAI_MODEL=gpt-4o-mini
+export OPENAI_ENRICH_ENABLED=true
+export OPENAI_MAX_RETRIES=2
+export OPENAI_BACKOFF_BASE_SEC=1.0
+export OPENAI_CACHE_TTL_SEC=300
 ```
 
 ## 3) ffmpeg (선택)

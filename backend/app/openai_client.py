@@ -1,17 +1,29 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import time
+import urllib.error
 import urllib.request
 from typing import Any, Dict, List
 
-from app.config import OPENAI_API_KEY, OPENAI_MODEL, OPENAI_TIMEOUT_SEC, logger
+from app.config import (
+    OPENAI_API_KEY,
+    OPENAI_BACKOFF_BASE_SEC,
+    OPENAI_CACHE_TTL_SEC,
+    OPENAI_ENRICH_ENABLED,
+    OPENAI_MAX_RETRIES,
+    OPENAI_MODEL,
+    OPENAI_TIMEOUT_SEC,
+    logger,
+)
 
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
+_CACHE: dict[str, tuple[float, dict[str, Any]]] = {}
 
 
 def _is_enabled() -> bool:
-    return bool(OPENAI_API_KEY)
+    return OPENAI_ENRICH_ENABLED and bool(OPENAI_API_KEY)
 
 
 def _extract_json(text: str) -> dict[str, Any] | None:
@@ -64,6 +76,85 @@ def _build_prompt(
     )
 
 
+def _cache_key(user_profile: Dict[str, float], recommendations: List[Dict[str, Any]]) -> str:
+    payload = {"user_profile": user_profile, "recommendations": recommendations}
+    encoded = json.dumps(payload, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def _read_cache(key: str) -> dict[str, Any] | None:
+    if OPENAI_CACHE_TTL_SEC <= 0:
+        return None
+    cached = _CACHE.get(key)
+    if not cached:
+        return None
+    saved_at, value = cached
+    age = time.time() - saved_at
+    if age > OPENAI_CACHE_TTL_SEC:
+        _CACHE.pop(key, None)
+        return None
+    return value
+
+
+def _write_cache(key: str, value: dict[str, Any]) -> None:
+    if OPENAI_CACHE_TTL_SEC <= 0:
+        return
+    _CACHE[key] = (time.time(), value)
+
+
+def _request_openai(body: dict[str, Any]) -> dict[str, Any]:
+    req = urllib.request.Request(
+        OPENAI_API_URL,
+        data=json.dumps(body).encode("utf-8"),
+        method="POST",
+        headers={
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json",
+        },
+    )
+
+    last_err: Exception | None = None
+    attempts = OPENAI_MAX_RETRIES + 1
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=OPENAI_TIMEOUT_SEC) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as err:
+            last_err = err
+            if err.code != 429 or attempt >= attempts:
+                raise
+            retry_after = err.headers.get("Retry-After", "").strip()
+            sleep_sec = OPENAI_BACKOFF_BASE_SEC * (2 ** (attempt - 1))
+            if retry_after:
+                try:
+                    sleep_sec = max(sleep_sec, float(retry_after))
+                except ValueError:
+                    pass
+            logger.warning(
+                "openai reason enrichment rate-limited status=429 attempt=%d/%d sleep=%.2fs",
+                attempt,
+                attempts,
+                sleep_sec,
+            )
+            time.sleep(sleep_sec)
+        except Exception as err:
+            last_err = err
+            if attempt >= attempts:
+                raise
+            sleep_sec = OPENAI_BACKOFF_BASE_SEC * (2 ** (attempt - 1))
+            logger.warning(
+                "openai reason enrichment retry after error attempt=%d/%d sleep=%.2fs err=%s",
+                attempt,
+                attempts,
+                sleep_sec,
+                err,
+            )
+            time.sleep(sleep_sec)
+    if last_err:
+        raise last_err
+    raise RuntimeError("openai request failed without error")
+
+
 def enrich_recommendation_reasons(
     user_profile: Dict[str, float],
     recommendations: List[Dict[str, Any]],
@@ -73,15 +164,31 @@ def enrich_recommendation_reasons(
         return recommendations
 
     if not _is_enabled():
-        logger.info("openai reason enrichment skipped: OPENAI_API_KEY is not set")
+        logger.info("openai reason enrichment skipped: disabled or OPENAI_API_KEY is not set")
         return recommendations
 
     try:
         started = time.perf_counter()
+        cache_key = _cache_key(user_profile, recommendations)
+        cached_payload = _read_cache(cache_key)
+        if cached_payload:
+            logger.info("openai reason enrichment cache_hit ttl=%ds", OPENAI_CACHE_TTL_SEC)
+            reasons_by_rank = cached_payload.get("reasons_by_rank", {})
+            if isinstance(reasons_by_rank, dict):
+                for item in recommendations:
+                    rank = str(item.get("rank"))
+                    reasons = reasons_by_rank.get(rank)
+                    if isinstance(reasons, list):
+                        cleaned = [str(x).strip() for x in reasons if str(x).strip()]
+                        if cleaned:
+                            item["reasons"] = cleaned[:2]
+            return recommendations
+
         logger.info(
-            "openai reason enrichment start model=%s items=%d",
+            "openai reason enrichment start model=%s items=%d retries=%d",
             OPENAI_MODEL,
             len(recommendations),
+            OPENAI_MAX_RETRIES,
         )
         prompt = _build_prompt(user_profile, recommendations)
         body = {
@@ -99,19 +206,7 @@ def enrich_recommendation_reasons(
             ],
             "max_tokens": 350,
         }
-
-        req = urllib.request.Request(
-            OPENAI_API_URL,
-            data=json.dumps(body).encode("utf-8"),
-            method="POST",
-            headers={
-                "Authorization": f"Bearer {OPENAI_API_KEY}",
-                "Content-Type": "application/json",
-            },
-        )
-
-        with urllib.request.urlopen(req, timeout=OPENAI_TIMEOUT_SEC) as resp:
-            raw = json.loads(resp.read().decode("utf-8"))
+        raw = _request_openai(body)
 
         content = ""
         choices = raw.get("choices", [])
@@ -129,6 +224,7 @@ def enrich_recommendation_reasons(
             logger.warning("openai reason enrichment skipped: reasons_by_rank is not dict")
             return recommendations
 
+        _write_cache(cache_key, {"reasons_by_rank": reasons_by_rank})
         updated_count = 0
         for item in recommendations:
             rank = str(item.get("rank"))

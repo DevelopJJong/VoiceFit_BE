@@ -28,6 +28,15 @@ SPOTIFY_TIMEOUT_SEC = float(os.getenv("SPOTIFY_TIMEOUT_SEC", "5"))
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 OPENAI_TIMEOUT_SEC = float(os.getenv("OPENAI_TIMEOUT_SEC", "8"))
+OPENAI_ENRICH_ENABLED = os.getenv("OPENAI_ENRICH_ENABLED", "true").strip().lower() in {
+    "1",
+    "true",
+    "yes",
+    "y",
+}
+OPENAI_MAX_RETRIES = max(0, int(os.getenv("OPENAI_MAX_RETRIES", "2")))
+OPENAI_BACKOFF_BASE_SEC = max(0.1, float(os.getenv("OPENAI_BACKOFF_BASE_SEC", "1.0")))
+OPENAI_CACHE_TTL_SEC = max(0, int(os.getenv("OPENAI_CACHE_TTL_SEC", "300")))
 
 CORS_ORIGINS = [
     "http://localhost:5173",
