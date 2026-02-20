@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import time
 import urllib.request
 from typing import Any, Dict, List
 
@@ -67,10 +68,21 @@ def enrich_recommendation_reasons(
     user_profile: Dict[str, float],
     recommendations: List[Dict[str, Any]],
 ) -> List[Dict[str, Any]]:
-    if not recommendations or not _is_enabled():
+    if not recommendations:
+        logger.info("openai reason enrichment skipped: empty recommendations")
+        return recommendations
+
+    if not _is_enabled():
+        logger.info("openai reason enrichment skipped: OPENAI_API_KEY is not set")
         return recommendations
 
     try:
+        started = time.perf_counter()
+        logger.info(
+            "openai reason enrichment start model=%s items=%d",
+            OPENAI_MODEL,
+            len(recommendations),
+        )
         prompt = _build_prompt(user_profile, recommendations)
         body = {
             "model": OPENAI_MODEL,
@@ -114,8 +126,10 @@ def enrich_recommendation_reasons(
 
         reasons_by_rank = parsed.get("reasons_by_rank", {})
         if not isinstance(reasons_by_rank, dict):
+            logger.warning("openai reason enrichment skipped: reasons_by_rank is not dict")
             return recommendations
 
+        updated_count = 0
         for item in recommendations:
             rank = str(item.get("rank"))
             reasons = reasons_by_rank.get(rank)
@@ -123,6 +137,14 @@ def enrich_recommendation_reasons(
                 cleaned = [str(x).strip() for x in reasons if str(x).strip()]
                 if cleaned:
                     item["reasons"] = cleaned[:2]
+                    updated_count += 1
+
+        logger.info(
+            "openai reason enrichment done updated=%d/%d took=%.3fs",
+            updated_count,
+            len(recommendations),
+            time.perf_counter() - started,
+        )
 
         return recommendations
     except Exception as err:
